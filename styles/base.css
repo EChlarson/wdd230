@@ -42,7 +42,7 @@ header img {
 header h1 {
     display: inline;
     font-family: var(--heading-font);
-    color: var(--accent3-color);
+    color: var(--primary-color);
 }
 
 nav {
