@@ -42,7 +42,7 @@ header img {
 header h1 {
     display: inline;
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--accent3-color);
 }
 
 nav {
@@ -54,7 +54,7 @@ nav {
 
 nav a, nav a:visited, nav a:hover, nav a:focus, nav a:active {
     font-family: var(--heading-font);
-    color: var(--accent3-color);
+    color: var(--primary-color);
 }
 
 main h2, main h3 {
