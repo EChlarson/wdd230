@@ -56,6 +56,13 @@ div article {
     color: var(--accent2-color);
 }
 
+div img {
+    display: block;
+    max-width: 300px;
+    margin: 0 auto 0 auto;
+    padding: 0.25rem;
+}
+
 footer {
         background-color: var(--accent3-color);
         font-family: var(--paragraph-font);
