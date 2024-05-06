@@ -46,10 +46,17 @@ header h1 {
 }
 
 nav {
-    padding: 1rem;
     background-color: var(--secondary-color);
-    display: flex;
-    justify-content: space-evenly;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav a{
+    padding: 0.5rem;
+    display: block;
+    text-align: center;
 }
 
 nav a, nav a:visited, nav a:hover, nav a:focus, nav a:active {
