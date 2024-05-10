@@ -24,7 +24,7 @@ body {
     display: grid;
     height: 100vh;
     grid-template-columns: 1fr;
-    grid-template-rows: auto auto 1fr auto;
+    grid-template-rows: auto auto 1fr auto auto;
 }
 
 header {
@@ -51,6 +51,7 @@ nav {
 
 nav ul {
     list-style-type: none;
+    padding: 0;
 }
 
 nav a{
@@ -74,7 +75,6 @@ main h2, main h3 {
     border: 2px solid var(--accent2-color);
     border-radius: 0.25rem;
     margin: 2rem;
-    padding: 1rem;
 }
 
 .card ul {
@@ -87,9 +87,8 @@ main h2, main h3 {
     color: var(--accent2-color);
 }
 
-.card iframe {
+iframe {
     width: 100%;
-    height: 100%;
 }
 
 footer {
