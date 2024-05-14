@@ -5,11 +5,11 @@
     
     How to use ex. color: var(--primary-color);*/
 :root {
-    --primary-color: #042940;
-    --secondary-color: #005c53;
-    --accent1-color: #9fc131;
-    --accent2-color: #dbf227;
-    --accent3-color: #d6d58e;
+    --primary-color: #637368;
+    --secondary-color: #070D06;
+    --accent1-color: #182612;
+    --accent2-color: #A0A698;
+    --accent3-color: #F1F2E9;
 
     --heading-font: 'Oswald', sans-serif;
     --paragraph-font: 'Quattrocento', serif;

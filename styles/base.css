@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 
 :root {
-    --primary-color: #637368;
-    --secondary-color: #070D06;
-    --accent1-color: #182612;
-    --accent2-color: #A0A698;
-    --accent3-color: #F1F2E9;
+    --primary-color: #170126;
+    --secondary-color: #D3CDE8;
+    --accent1-color: #2D1140;
+    --accent2-color: #0D0D0D;
+    --accent3-color: #F2F2F2;
 
     --heading-font: 'Oswald', sans-serif;
     --paragraph-font: 'Source Sans 3', sans-serif;
