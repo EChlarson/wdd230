@@ -25,10 +25,10 @@ body {
 
 header {
     font-family: var(--heading-font);
-    color: var(--accent1-color);
+    color: var(--secondary-color);
     padding: 0.5rem;
     text-align: left;
-    background-color: var(--primary-color);
+    background-color: var(--accent2-color);
 }
 
 /* Hamburger Menu */
@@ -68,7 +68,7 @@ header {
 	text-decoration: none;
     font-family: var(--heading-font);
     font-size: larger;
-    color: var(--primary-color);
+    color: var(--accent3-color);
 }
 
 .navigation a:hover {
@@ -84,6 +84,16 @@ header {
 	text-decoration: underline;
     text-decoration-color: var(--primary-color);
     text-decoration-thickness: 1.5px;
+}
+
+main h2, main h3 {
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+}
+
+main p {
+    font-family: var(--paragraph-font);
+    color: var(--secondary-color);
 }
 
 .intro {
@@ -102,7 +112,8 @@ footer {
     display: grid;
     grid-template-columns: 2fr 1fr;
     align-content: center;
-    margin: 2rem;
+    background-color: var(--accent2-color);
+    padding: 0.25rem;
 }
 
 footer p {
