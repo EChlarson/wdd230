@@ -24,6 +24,8 @@ body {
 }
 
 header {
+    height: 8rem;
+    align-content: center;
     font-family: var(--heading-font);
     color: var(--secondary-color);
     padding: 0.5rem;
@@ -49,7 +51,7 @@ main p {
 	border: 0;
 	background: none;
 	position: absolute;
-	top: 1rem;
+	top: 5rem;
 	right: 1rem;
 }
 
@@ -122,15 +124,26 @@ main p {
     font-size: x-small;
 } /* End Hero Img */
 
-.boxes article {
-    border: 2px solid var(--secondary-color);
-    border-radius: 0.25rem;
-    margin: 0.5rem 3rem 0.5rem 3rem;
+.boxes img {
+    width: 20rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    margin-top: 2rem;
+}
+
+.boxes {
+    width: 20rem;
+    margin: auto;
     text-align: center;
 }
 
-.boxes p {
+.border {
+    border: 4px solid var(--secondary-color);
+    border-top: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem ;
     padding: 1rem;
+    margin-bottom: 2rem;
 }
 
 footer {
@@ -138,7 +151,7 @@ footer {
     grid-template-columns: 2fr 1fr;
     align-content: center;
     background-color: var(--accent2-color);
-    padding: 0.25rem;
+    padding: 0.5rem;
 }
 
 footer p {
