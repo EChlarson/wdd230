@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Quattrocento:wght@400;700&display=swap');
+
+/*This sets colors and fonts for all pages with this css applied,
+    to change any font or color simply update the root and all pages will update.
+    
+    How to use ex. color: var(--primary-color);*/
+:root {
+    --primary-color: #637368;
+    --secondary-color: #070D06;
+    --accent1-color: #182612;
+    --accent2-color: #A0A698;
+    --accent3-color: #F1F2E9;
+
+    --heading-font: 'Oswald', sans-serif;
+    --paragraph-font: 'Quattrocento', serif;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+    padding: 0.5rem;
+    text-align: left;
+    background-color: var(--accent2-color);
+}
+
+/* Hamburger Menu */
+#menu {
+	font-size: 1.5rem;
+	border: 0;
+	background: none;
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+}
+
+#menu::before {
+	content: "☰";
+    color: var(--accent1-color);
+}
+
+#menu.open::before {
+	content: "X";
+    color: var(--accent1-color);
+}
+
+.navigation {
+	display: flex;
+	flex-direction: column;
+	background-color: var(--accent1-color);
+}
+
+.navigation ul {
+    list-style: none;
+}
+
+.navigation a {
+	display: none;
+	padding: 1rem;
+	text-align: center;
+	text-decoration: none;
+    font-family: var(--heading-font);
+    font-size: larger;
+    color: var(--accent3-color);
+}
+
+.navigation a:hover {
+	font-weight: 700;
+}
+
+.open a {
+	display: block;
+}
+
+/* wayfinding symbol */
+.navigation .active { 
+	text-decoration: underline;
+    text-decoration-color: var(--primary-color);
+    text-decoration-thickness: 1.5px;
+}
+
+main h2, main h3 {
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+}
+
+main p {
+    font-family: var(--paragraph-font);
+    color: var(--secondary-color);
+}
+
+.intro {
+    text-align: center;
+    margin: 2rem;
+}
+
+article {
+    border: 2px solid var(--secondary-color);
+    border-radius: 0.25rem;
+    margin: 2rem;
+    padding: 1rem;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-content: center;
+    background-color: var(--accent2-color);
+    padding: 0.25rem;
+}
+
+footer p {
+    text-align: left;
+}
+
+.social-links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.social-links img {
+    width: 2rem;
+    padding: 0.25rem;
+}
