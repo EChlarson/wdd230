@@ -31,6 +31,18 @@ header {
     background-color: var(--accent2-color);
 }
 
+main h2, main h3 {
+    font-family: var(--heading-font);
+    font-size: smaller;
+    color: var(--secondary-color);
+}
+
+main p {
+    font-family: var(--paragraph-font);
+    font-size: x-small;
+    color: var(--secondary-color);
+}
+
 /* Hamburger Menu */
 #menu {
 	font-size: 1.5rem;
@@ -77,34 +89,47 @@ header {
 
 .open a {
 	display: block;
-}
+} /* End Hamburger Menu */
 
 /* wayfinding symbol */
 .navigation .active { 
 	text-decoration: underline;
     text-decoration-color: var(--primary-color);
     text-decoration-thickness: 1.5px;
+} /* End wayfinding symbol */
+
+/* Hero Image */
+.hero {
+    position: relative;
 }
 
-main h2, main h3 {
+.hero img {
+    width: 100%;
+}
+
+.hero article {
+    position: absolute;
+    padding: 1rem;
+    margin: 2.5rem;
+    top: 0.25rem;
+    left: 0.25rem;
+    right: 0.25rem;
+    background-color: rgb(255, 255, 255, 0.7);
+} 
+
+.hero button {
     font-family: var(--heading-font);
-    color: var(--secondary-color);
-}
+    font-size: x-small;
+} /* End Hero Img */
 
-main p {
-    font-family: var(--paragraph-font);
-    color: var(--secondary-color);
-}
-
-.intro {
-    text-align: center;
-    margin: 2rem;
-}
-
-article {
+.boxes article {
     border: 2px solid var(--secondary-color);
     border-radius: 0.25rem;
-    margin: 2rem;
+    margin: 0.5rem 3rem 0.5rem 3rem;
+    text-align: center;
+}
+
+.boxes p {
     padding: 1rem;
 }
 
@@ -120,6 +145,7 @@ footer p {
     text-align: left;
 }
 
+/* Social Media Links */
 .social-links {
     display: flex;
     justify-content: flex-end;
@@ -129,4 +155,4 @@ footer p {
 .social-links img {
     width: 2rem;
     padding: 0.25rem;
-}
+}/* Social Media Links */
