@@ -163,7 +163,8 @@ main p {
 
 footer {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: 2fr 1fr;
     align-content: center;
     background-color: var(--accent2-color);
     padding: 0.5rem;
@@ -171,7 +172,12 @@ footer {
 
 footer p {
     text-align: left;
-    font-size: small;
+    font-size: smaller;
+}
+
+footer label {
+    grid-column: 1/3;
+    font-size: x-small;
 }
 
 /* Social Media Links */
@@ -182,6 +188,6 @@ footer p {
 }
 
 .social-links img {
-    width: 2rem;
+    width: 1.75rem;
     padding: 0.25rem;
 }/* Social Media Links */
