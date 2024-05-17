@@ -131,10 +131,6 @@ main p {
     margin-top: 2rem;
 }
 
-.boxes h3 {
-    margin: 0 0 0.25rem 0;
-}
-
 .boxes {
     width: 15rem;
     margin: auto;
@@ -147,12 +143,13 @@ main p {
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem ;
     padding: 0.25rem;
-    margin-bottom: 2rem;
+    margin: -.5rem 0 2rem 0;
+    background-color: var(--accent2-color);
 }
 
 .button {
     font-family: var(--heading-font);
-    background-color: var(--accent2-color);
+    background-color: var(--accent3-color);
     color: var(--secondary-color);
     padding: 0.5rem;
     text-align: center;
