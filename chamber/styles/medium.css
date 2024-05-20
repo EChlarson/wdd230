@@ -1,13 +1,19 @@
 @media screen and (min-width: 520px) {
 
-/* Hamburger Menu */
+/* Responsive Font */
+body p, body label{
+    font-size: revert;
+} 
+
+    /* Hamburger Menu */
 #menu {
     top: 3.25rem;
     /*center button*/
-} /* End Hamburger Menu */
+} 
 
+/* Hero Image */
 .hero article {
-    top: 2.75rem;
+    top: 1.5rem;
 }
 
 .boxes {
@@ -22,7 +28,6 @@
 }
 
 .border {
-    height: 10rem;
     margin: -.5rem 0 0 0;
     
 }

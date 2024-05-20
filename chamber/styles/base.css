@@ -21,7 +21,7 @@
 
 body {
     margin: 0;
-    min-width: 250px;
+    min-width: 290px;
 }
 
 header {
@@ -36,15 +36,18 @@ header {
 
 main h2, main h3 {
     font-family: var(--heading-font);
-    font-size: medium;
     color: var(--secondary-color);
 }
 
 main p {
     font-family: var(--paragraph-font);
-    font-size: x-small;
     color: var(--secondary-color);
 }
+
+/* Responsive Font */
+body p, body label{
+    font-size: smaller;
+} 
 
 /* Hamburger Menu */
 #menu {
@@ -82,7 +85,6 @@ main p {
 	text-align: center;
 	text-decoration: none;
     font-family: var(--heading-font);
-    font-size: larger;
     color: var(--accent3-color);
 }
 
@@ -99,7 +101,7 @@ main p {
 	text-decoration: underline;
     text-decoration-color: var(--primary-color);
     text-decoration-thickness: 1.5px;
-} /* End wayfinding symbol */
+} 
 
 /* Hero Image */
 .hero {
@@ -108,7 +110,7 @@ main p {
 
 .hero img {
     width: 100%;
-    height: 20rem;
+    height: 25rem;
     object-fit: cover;
 }
 
@@ -124,7 +126,6 @@ main p {
 
 .hero button {
     font-family: var(--heading-font);
-    font-size: x-small;
 } /* End Hero Img */
 
 .boxes img {
@@ -172,12 +173,10 @@ footer {
 
 footer p {
     text-align: left;
-    font-size: smaller;
 }
 
 footer label {
     grid-column: 1/3;
-    font-size: x-small;
 }
 
 /* Social Media Links */
@@ -190,4 +189,4 @@ footer label {
 .social-links img {
     width: 1.75rem;
     padding: 0.25rem;
-}/* Social Media Links */
+}/* End Social Media Links */
