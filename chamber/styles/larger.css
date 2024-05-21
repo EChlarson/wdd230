@@ -1,5 +1,9 @@
 @media screen and (min-width: 800px) {
 
+header {
+    height: 5rem;
+}
+
 /* Hero Image */
 .hero article {
     top: 3.5rem;
@@ -18,6 +22,52 @@
 
 .boxes article {
     margin: 1rem;
+}
+
+.navigation ul {
+    display: flex;
+    margin: 0.25rem;
+}
+
+.navigation ul li {
+    flex: 1 1 100%;
+}
+
+/* Remove Hamburger */
+#menu {
+    display: none; /* hide hamburger button */
+}
+
+.navigation a {
+    display: block;
+    flex: 1 1 100%;
+}
+
+.navigation {
+    background-color: var(--secondary-color);
+    height: 3rem;
+}
+
+.navigation ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navigation a{
+    padding: 0.5rem;
+    display: block;
+    text-align: center;
+}
+
+.navigation a, .navigation a:visited, .navigation a:hover, .navigation a:focus, .navigation a:active {
+    font-family: var(--heading-font);
+    font-size: larger;
+    color: var(--primary-color);
+} /* End Remove Hamburger */
+
+.social-links img {
+    width: 2.75rem;
+    padding: 0.25rem;
 }
 
 }
