@@ -72,7 +72,7 @@ body p, body label{
 .navigation {
 	display: flex;
 	flex-direction: column;
-	background-color: var(--accent1-color);
+	background-color: var(--accent2-color);
 }
 
 .navigation ul {
@@ -85,7 +85,7 @@ body p, body label{
 	text-align: center;
 	text-decoration: none;
     font-family: var(--heading-font);
-    color: var(--accent3-color);
+    color: var(--secondary-color);
 }
 
 .navigation a:hover {

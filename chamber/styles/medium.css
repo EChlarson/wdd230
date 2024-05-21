@@ -1,5 +1,16 @@
 @media screen and (min-width: 520px) {
 
+:root {
+    --primary-color: #637368;
+    --secondary-color: #070D06;
+    --accent1-color: #182612;
+    --accent2-color: #A0A698;
+    --accent3-color: #F1F2E9;
+        
+    --heading-font: 'Oswald', sans-serif;
+    --paragraph-font: 'Quattrocento', serif;
+    }
+
 /* Responsive Font */
 body p, body label{
     font-size: revert;
