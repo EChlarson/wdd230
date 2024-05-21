@@ -25,11 +25,10 @@ body {
 }
 
 header {
-    height: 8rem;
     align-content: center;
     font-family: var(--heading-font);
     color: var(--secondary-color);
-    padding: 0.5rem;
+    padding: 0.25rem;
     text-align: left;
     background-color: var(--accent2-color);
 }
@@ -70,7 +69,8 @@ body p, body label{
 }
 
 .navigation {
-	display: flex;
+    align-self: center;
+    display: flex;
 	flex-direction: column;
 	background-color: var(--accent2-color);
 }
