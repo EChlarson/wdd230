@@ -20,6 +20,18 @@ header {
     top: 3.5rem;
 }
 
+/* Local Change */
+.local {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.local article {
+    margin: 2rem;
+    padding: 1rem;
+    border: 3px dotted var(--secondary-color);
+}
+
 .boxes {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -32,7 +44,7 @@ header {
 }
 
 .boxes article {
-    margin: 1rem;
+    margin: 0 2.5rem 0 2.5rem;
 }
 
 .navigation ul {

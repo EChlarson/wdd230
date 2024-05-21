@@ -139,6 +139,11 @@ body p, body label{
     font-family: var(--heading-font);
 } /* End Hero Img */
 
+.local {
+    text-align: center;
+    padding: 0.5rem;
+}
+
 .boxes img {
     width: 15rem;
     border-top-left-radius: 1rem;
