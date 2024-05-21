@@ -5,11 +5,11 @@
     
     How to use ex. color: var(--primary-color);*/
 :root {
-    --primary-color: #637368;
-    --secondary-color: #070D06;
-    --accent1-color: #182612;
-    --accent2-color: #A0A698;
-    --accent3-color: #F1F2E9;
+    --primary-color: #0388A6;
+    --secondary-color: #025e73;
+    --accent1-color: #88b5bf;
+    --accent2-color: #d8d8d8;
+    --accent3-color: #0d0d0d;
 
     --heading-font: 'Oswald', sans-serif;
     --paragraph-font: 'Quattrocento', serif;
@@ -33,6 +33,16 @@ header {
     background-color: var(--accent2-color);
 }
 
+/* Light to Dark Switch */
+#mode {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 3rem;
+    cursor: pointer;
+    font-size: 2rem;
+    }
+
 main h2, main h3 {
     font-family: var(--heading-font);
     color: var(--secondary-color);
@@ -40,7 +50,7 @@ main h2, main h3 {
 
 main p {
     font-family: var(--paragraph-font);
-    color: var(--secondary-color);
+    color: var(--accent3-color);
 }
 
 /* Responsive Font */
@@ -54,18 +64,18 @@ body p, body label{
 	border: 0;
 	background: none;
 	position: absolute;
-	top: 5rem;
-	right: 1rem;
+	top: 4rem;
+	right: 1.25rem;
 }
 
 #menu::before {
 	content: "☰";
-    color: var(--accent1-color);
+    color: var(--secondary-color);
 }
 
 #menu.open::before {
 	content: "X";
-    color: var(--accent1-color);
+    color: var(--secondary-color);
 }
 
 .navigation {
@@ -77,6 +87,7 @@ body p, body label{
 
 .navigation ul {
     list-style: none;
+    margin: 0;
 }
 
 .navigation a {
@@ -99,7 +110,7 @@ body p, body label{
 /* wayfinding symbol */
 .navigation .active { 
 	text-decoration: underline;
-    text-decoration-color: var(--primary-color);
+    text-decoration-color: var(--secondary-color);
     text-decoration-thickness: 1.5px;
 } 
 
@@ -142,7 +153,7 @@ body p, body label{
 }
 
 .border {
-    border: 4px solid var(--secondary-color);
+    border: 4px solid var(--accent3-color);
     border-top: 1rem;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem ;
@@ -153,8 +164,8 @@ body p, body label{
 
 .button {
     font-family: var(--heading-font);
-    background-color: var(--accent3-color);
-    color: var(--secondary-color);
+    background-color: var(--accent1-color);
+    color: var(--accent3-color);
     padding: 0.5rem;
     text-align: center;
     cursor: pointer;
@@ -169,6 +180,7 @@ footer {
     align-content: center;
     background-color: var(--accent2-color);
     padding: 0.5rem;
+    margin: 0;
 }
 
 footer p {

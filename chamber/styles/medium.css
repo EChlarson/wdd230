@@ -1,11 +1,11 @@
 @media screen and (min-width: 520px) {
 
 :root {
-    --primary-color: #637368;
-    --secondary-color: #070D06;
-    --accent1-color: #182612;
-    --accent2-color: #A0A698;
-    --accent3-color: #F1F2E9;
+    --primary-color: #0388A6;
+    --secondary-color: #025e73;
+    --accent1-color: #88b5bf;
+    --accent2-color: #d8d8d8;
+    --accent3-color: #0d0d0d;
         
     --heading-font: 'Oswald', sans-serif;
     --paragraph-font: 'Quattrocento', serif;
@@ -16,7 +16,7 @@ body p, body label{
     font-size: revert;
 } 
 
-    /* Hamburger Menu */
+/* Hamburger Menu */
 #menu {
     top: 3.25rem;
     /*center button*/
@@ -39,7 +39,7 @@ body p, body label{
 }
 
 .border {
-    margin: -.5rem 0 0 0;
+    margin: -.5rem 0 2rem 0;
     
 }
 
@@ -51,10 +51,6 @@ body p, body label{
 
 #last-box {
     grid-column: 1/3;
-}
-
-footer {
-    margin-top: 2rem;
 }
 
 }

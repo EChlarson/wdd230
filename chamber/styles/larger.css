@@ -1,11 +1,11 @@
 @media screen and (min-width: 800px) {
 
 :root {
-    --primary-color: #637368;
-    --secondary-color: #070D06;
-    --accent1-color: #182612;
-    --accent2-color: #A0A698;
-    --accent3-color: #F1F2E9;
+    --primary-color: #0388A6;
+    --secondary-color: #025e73;
+    --accent1-color: #88b5bf;
+    --accent2-color: #d8d8d8;
+    --accent3-color: #0d0d0d;
     
     --heading-font: 'Oswald', sans-serif;
     --paragraph-font: 'Quattrocento', serif;
@@ -75,6 +75,11 @@ header {
     font-size: larger;
     color: var(--accent2-color)
 } /*End Remove Hamburger */
+
+/* wayfinding symbol */
+.navigation .active { 
+    text-decoration-color: var(--accent2-color);
+}
 
 .social-links img {
     width: 2.75rem;
