@@ -1,19 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!--Meta Data-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="hamburgerTest.css">
+    <title>Hamburger Test</title>
+    <!--Open Graph Meta Tags-->
+    <!--Stylesheets-->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/hamburgerTest.css">
+    <link rel="stylesheet" href="styles/base.css">    
 </head>
 <body>
+    <!--Light to Dark Mode-->
     <header>
         <nav class="navbar">
-            <a href="#" class="nav-branding">DEV.</a>
+            <a href="#" class="nav-branding">Riverstone Chamber of Commerce</a>
             <ul class="nav-menu">
-                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                <li class="nav-item"><a href="#" class="nav-link" id="active">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Advocacy</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Resources</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Events</a></li>
             </ul>
             <div class="hamburger">
                 <span class="bar"></span>
@@ -22,6 +29,15 @@
             </div>
         </nav>
     </header>
-    <script src="hamburgerTest.js"></script>
+    <main>
+        <div class="hero">
+            <picture><img src="images/crowd-5076714_1280.jpg" alt="img"></picture>
+            <article>
+                <h3>Text</h3>
+            </article>
+        </div>
+
+    </main>
+    <script src="scripts/hamburgerTest.js"></script>
 </body>
 </html>
