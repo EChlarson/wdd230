@@ -1,22 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Quattrocento:wght@400;700&display=swap');
 
 :root {
-    --primary-color: #1A2238;
-    --secondary-color: #9DAAF2;
-    --accent1-color: #FF6A3D;
-    --accent2-color: #F4DB7D;
-    --accent3-color: white;
+    --primary-color: #142725;
+    --secondary-color: #276532;
+    --accent1-color: #317B7A;
+    --accent2-color: #A8E5EA;
+    --accent3-color: #eef9fa;
 
     --heading-font: 'Oswald', sans-serif;
     --paragraph-font: 'Quattrocento', serif;
 }
 
+/* breakpoints: mobile 320px, tablet 768px, desktop 1024px */
+
 body {
     min-width: 300px;
-}
-
-.nav-branding {
-   font-size: 1.5rem; 
 }
 
 /* Hero Image */
@@ -37,6 +35,7 @@ body {
     top: 0.25rem;
     left: 0.25rem;
     right: 0.25rem;
-    color: var(--accent2-color);
+    color: var(--accent3-color);
+    text-shadow: 2px 2px var(--primary-color);
     font-family: var(--heading-font);
 } /* End Hero Img */

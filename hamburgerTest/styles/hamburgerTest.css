@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Quattrocento:wght@400;700&display=swap');
 
 :root {
-    --primary-color: #1A2238;
-    --secondary-color: #9DAAF2;
-    --accent1-color: #FF6A3D;
-    --accent2-color: #F4DB7D;
-    --accent3-color: white;
+    --primary-color: #142725;
+    --secondary-color: #276532;
+    --accent1-color: #317B7A;
+    --accent2-color: #A8E5EA;
+    --accent3-color: #eef9fa;
 
     --heading-font: 'Oswald', sans-serif;
     --paragraph-font: 'Quattrocento', serif;
@@ -32,7 +32,8 @@ li {
 }
 
 a {
-    color: var(--accent2-color);
+    color: var(--accent1-color);
+    font-weight: bold;
     text-decoration: none;
     font-family: var(--paragraph-font);
 }
@@ -57,6 +58,8 @@ a {
     font-family: var(--heading-font);
     font-weight: bold;
     text-transform: uppercase;
+    font-size: 1.5rem;
+    color: var(--accent2-color);
 }
 
 .nav-link {
@@ -64,7 +67,7 @@ a {
 }
 
 .nav-link:hover {
-    color: var(--accent1-color);
+    color: var(--secondary-color);
 }
 
 .hamburger {
@@ -107,12 +110,13 @@ a {
     }
 
     .nav-menu {
-        position: fixed;
+        position: fixed;     
+        z-index: 1;
         left: -100%;
         top: 70px;
         gap: 0;
         flex-direction: column;
-        background-color: var(--primary-color);
+        background-color: var(--accent2-color);
         width: 100%;
         text-align: center;
         transition: 0.3s;

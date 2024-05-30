@@ -31,7 +31,11 @@
     </header>
     <main>
         <div class="hero">
-            <picture><img src="images/crowd-5076714_1280.jpg" alt="img"></picture>
+            <picture>
+                <source srcset="images/hero-mobile.webp" media="(max-width: 320px)">
+                <source srcset="images/hero-tablet.webp" media="(max-width: 768px)">
+                <img src="images/hero-desktop.webp" alt="Pine Tree" width="1024" height="512">
+            </picture>
             <article>
                 <h3>Text</h3>
             </article>
