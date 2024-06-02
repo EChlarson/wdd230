@@ -33,6 +33,10 @@ header {
     background-color: var(--accent2-color);
 }
 
+header img {
+    width: 12rem;
+}
+
 /* Light to Dark Switch */
 #mode {
     position: absolute;
@@ -64,8 +68,8 @@ body p, body label{
 	border: 0;
 	background: none;
 	position: absolute;
-	top: 4rem;
-	right: 1.25rem;
+	top: 1rem;
+	right: 4rem;
 }
 
 #menu::before {
@@ -138,6 +142,16 @@ body p, body label{
 .hero button {
     font-family: var(--heading-font);
 } /* End Hero Img */
+
+.weather ul {
+    list-style: none;
+    padding: 0;
+}
+
+#temp, #wSpeed, #windchill {
+    font-family: var(--paragraph-font);
+    font-size: smaller;
+}
 
 .local {
     text-align: center;
