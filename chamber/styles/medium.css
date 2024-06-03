@@ -1,4 +1,4 @@
-@media screen and (min-width: 520px) {
+@media screen and (min-width: 600px) {
 
 :root {
     --primary-color: #0388A6;
@@ -46,5 +46,16 @@ body p, body label, #temp, #wSpeed, #windchill{
 #last-box {
     grid-column: 1/3;
 }
+
+
+/* Adjustable Overlay */
+#medium {
+    visibility: visible;
+}
+
+#small, #large {
+    visibility: hidden;
+}
+
 
 }

@@ -118,6 +118,13 @@ body p, body label{
     text-decoration-thickness: 1.5px;
 } 
 
+
+/* Adjustable Overlay */
+#medium, #large {
+    visibility: hidden;
+}
+
+
 /* Hero Image */
 .hero {
     position: relative;
@@ -163,6 +170,8 @@ body p, body label{
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
     margin-top: 2rem;
+    object-fit: cover;
+    height: auto;
 }
 
 .boxes {

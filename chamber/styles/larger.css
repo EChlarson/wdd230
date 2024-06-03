@@ -1,4 +1,4 @@
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1000px) {
 
 :root {
     --primary-color: #0388A6;
@@ -97,5 +97,16 @@ header {
     width: 2.75rem;
     padding: 0.25rem;
 }
+
+
+/* Adjustable Overlay */
+#large {
+    visibility: visible;
+}
+
+#small, #medium {
+    visibility: hidden;
+}
+
 
 }
