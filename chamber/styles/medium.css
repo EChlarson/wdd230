@@ -72,31 +72,9 @@ body p, body label, #temp, #wSpeed, #windchill{
     padding-top: 20px;
   } 
 
-#dem, #events, #local, #visits {
-    border: 0.25rem solid var(--accent1-color);
-    border-radius: 1rem;
-    background-color: var(--accent2-color);
-    margin: 0.5rem;
-    padding: 0.5rem;
-}
-
-#dem ul, #events ul, #local ul, #visits ul {
-    list-style-type: none;
-    padding: 0;
-    color: var(--secondary-color);
-    font-family: var(--paragraph-font); 
-}
-
   /* Main Area */
 #discover  {
     margin-left: 300px; /* Same as the width of the sidebar */
-    background-color: var(--accent1-color);
   }
-
-.mArea picture {
-    display: flex;
-    justify-content: center;
-    margin: 1rem;
-}
 
 }

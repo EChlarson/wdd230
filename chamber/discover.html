@@ -76,13 +76,42 @@
                         change the language to "day" not "days".-->
         </div>
         <div class="mArea">
-            <picture><img src="#" width="400" height="400"></picture>
-            <picture><img src="#" width="400" height="400"></picture>
-            <picture><img src="#" width="400" height="400"></picture>
-            <picture><img src="#" width="400" height="400"></picture>
-            <picture><img src="#" width="400" height="400"></picture>
-            <picture><img src="#" width="400" height="400"></picture>
-            <!--Each image should be optimized in terms of file size and captioned.-->
+            <figure>
+                <source srcset="images/peppers-small.webp" media="(max-width: 290px)">
+                <source srcset="images/peppers-med.webp" media="(max-width: 600px)">
+                <img loading="lazy" src="images/peppers-large.webp" alt="Farmers Market" width="1000" height="666">
+                <figurecaption>Picking Up Peppers at the Farmer's Market</figurecaption>
+            </figure>
+            <figure>
+                <source srcset="images/pet-park-small.webp" media="(max-width: 290px)">
+                <source srcset="images/pet-park-med.webp" media="(max-width: 600px)">
+                <img loading="lazy" src="images/pet-park-large.webp" alt="Dog Park" width="1000" height="666">
+                <figurecaption>Playing Fetch in the Local Park</figurecaption>
+            </figure>
+            <figure>
+                <source srcset="images/polar-bear-small.webp" media="(max-width: 290px)">
+                <source srcset="images/polar-bear-med.webp" media="(max-width: 600px)">
+                <img loading="lazy" src="images/polar-bear-large.webp" alt="Zoo" width="1000" height="666">
+                <figurecaption>Saying Hello to Our Polar Bear Freind at the Zoo</figurecaption>
+            </figure>
+            <figure>
+                <source srcset="images/water-park-small.webp" media="(max-width: 290px)">
+                <source srcset="images/water-park-med.webp"  media="(max-width: 600px)">
+                <img loading="lazy" src="images/water-park-large.webp" alt="Water Park" width="1000" height="666">
+                <figurecaption>Check Out the Slide at Our Water Park</figurecaption>
+            </figure>
+            <figure>
+                <source srcset="images/woman-gym-small.webp" media="(max-width: 290px)">
+                <source srcset="images/woman-gym-med.webp"  media="(max-width: 600px)">
+                <img loading="lazy" src="images/woman-gym-large.webp" alt="Gym" width="1000" height="666">
+                <figurecaption>Breaking a Sweat at the Gym</figurecaption>
+            </figure>
+            <figure>
+                <source srcset="images/bumper-cars-small.webp" media="(max-width: 290px)">
+                <source srcset="images/bumper-cars-med.webp" media="(max-width: 600px)">
+                <img loading="lazy" src="images/bumper-cars-large.webp" alt="Amusement Park" width="1000" height="666">
+                <figurecaption>1.. 2.. 3.. GO!</figurecaption>
+            </figure>
             <!--Images must not load until the user scrolls, use lazy loading-->
             <!--Use a CSS property effect whenever a user hovers over the images in the gallery with their mouse. 
                 This effect design is your choice. **Do not apply this effect to the images in the mobile view.-->

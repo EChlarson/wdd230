@@ -227,3 +227,44 @@ footer label {
     width: 1.75rem;
     padding: 0.25rem;
 }/* End Social Media Links */
+
+/* Discover Page CSS */
+#dem, #events, #local, #visits {
+    border: 0.25rem solid var(--accent1-color);
+    border-radius: 1rem;
+    background-color: var(--accent2-color);
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+#dem ul, #events ul, #local ul, #visits ul {
+    list-style-type: none;
+    padding: 0;
+    color: var(--secondary-color);
+    font-family: var(--paragraph-font); 
+}
+
+#discover  {
+    background-color: var(--accent1-color);
+  }
+
+.mArea figure img {
+    display: flex;
+    justify-content: center;
+    margin: 0.25rem;
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+figure {
+    margin: 1rem;
+}
+
+figurecaption {
+    font-family: var(--paragraph-font);
+    color: var(--accent3-color);
+    font-size: smaller;
+    font-style: italic;
+}
+
