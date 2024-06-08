@@ -233,8 +233,8 @@ footer label {
     border: 0.25rem solid var(--accent1-color);
     border-radius: 1rem;
     background-color: var(--accent2-color);
-    margin: 0.5rem;
-    padding: 0.5rem;
+    margin: 1rem;
+    padding: 0.75rem;
 }
 
 #dem ul, #events ul, #local ul, #visits ul {
@@ -242,6 +242,14 @@ footer label {
     padding: 0;
     color: var(--secondary-color);
     font-family: var(--paragraph-font); 
+}
+
+#dem ul, #events ul, #local ul, #visits ul {
+    margin: 0;
+}
+
+#dem h3, #events h3, #local h3, #visits h3 {
+    margin: 0.25rem 0;
 }
 
 #discover  {
@@ -261,10 +269,14 @@ figure {
     margin: 1rem;
 }
 
-figurecaption {
+figcaption {
     font-family: var(--paragraph-font);
     color: var(--accent3-color);
     font-size: smaller;
     font-style: italic;
 }
 
+.mArea img:hover {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}

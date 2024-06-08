@@ -69,12 +69,13 @@ body p, body label, #temp, #wSpeed, #windchill{
     left: 0;
     background-color: var(--secondary-color);
     overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 20px;
+    padding-top: 10px;
   } 
 
   /* Main Area */
 #discover  {
     margin-left: 300px; /* Same as the width of the sidebar */
+    background-color: var(--accent1-color);
   }
 
 }
