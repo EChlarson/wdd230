@@ -47,16 +47,6 @@ body p, body label, #temp, #wSpeed, #windchill{
     grid-column: 1/3;
 }
 
-
-/* Adjustable Overlay */
-#medium {
-    visibility: visible;
-}
-
-#small, #large {
-    visibility: hidden;
-}
-
 /* Discover Page CSS */
 
 /* The Sidebar */

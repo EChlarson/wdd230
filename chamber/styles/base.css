@@ -241,10 +241,7 @@ footer label {
     list-style-type: none;
     padding: 0;
     color: var(--secondary-color);
-    font-family: var(--paragraph-font); 
-}
-
-#dem ul, #events ul, #local ul, #visits ul {
+    font-family: var(--paragraph-font);
     margin: 0;
 }
 
