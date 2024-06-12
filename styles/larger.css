@@ -38,4 +38,14 @@
         font-size: larger;
         color: var(--primary-color);
     }
+
+}
+
+@media screen and (min-width: 750px){
+
+    .f1 fieldset {
+        margin: 2rem 15rem;
+
+}
+
 }
