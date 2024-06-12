@@ -18,9 +18,6 @@
 body {
     margin: 0;
     text-align: center;
-}
-
-body {
     display: grid;
     height: 100vh;
     grid-template-columns: 1fr;
