@@ -33,10 +33,10 @@
             <li><a href="#">Events</a></li>
         </ul>
     </nav>
+    <h2>Membership Level Descriptions</h2>
     <main class="jpage">
         <!-- Memberships -- First Column-->
         <div id="membership">
-            <h2>Membership Level Descriptions</h2>
             <div>
                 <h3>Non-Profit Membership</h3>
                 <p>Cost: Free</p>
@@ -88,15 +88,14 @@
         <!-- Form -- Second Column-->
         <div id="register">
             <form method="get" action="thankyou.html" class="f1">
-            <!-- Make a Thank You page-->
-                <fieldset>
+                <fieldset class="block">
                     <legend>Applicant Information</legend>
                         <label>First Name<input type="text" name="fname" required></label>
                         <label>Last Name<input type="text" name="lname" required></label>
                         <label>Email<input type="email" name="email" placeholder="helloworld@email.com" required></label>
                         <label>Phone<input type="tel" name="tel" required></label>
                 </fieldset>
-                <fieldset>
+                <fieldset class="block">
                     <legend>Business (Organization)</legend>
                         <label>Business Name<input type="text" name="bname" required></label>
                         <label>Title (Position)<input type="text" name="title" pattern="[a-zA-Z_-]{7}" required></label>

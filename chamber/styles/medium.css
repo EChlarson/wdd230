@@ -68,4 +68,10 @@ body p, body label, #temp, #wSpeed, #windchill{
     background-color: var(--accent1-color);
   }
 
+  /* Join Page */
+  .jpage {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
 }

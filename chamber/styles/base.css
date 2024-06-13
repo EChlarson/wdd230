@@ -58,7 +58,7 @@ main p {
 }
 
 /* Responsive Font */
-body p, body label, {
+body p, body label {
     font-size: smaller;
 } 
 
@@ -276,4 +276,78 @@ figcaption {
 .mArea img:hover {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
+}
+
+/* Join Page CSS */
+h2 {
+    margin-left: 1rem;
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+}
+
+#membership div {
+    border: 0.25rem solid var(--secondary-color);
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+#membership div h3, #membership div p {
+    margin: 0.25rem 0;
+}
+
+#register fieldset {
+    margin: 1rem;
+    border: 2px dashed var(--secondary-color);
+    border-radius: 6px;
+    padding: .5rem 2%;
+}
+
+#register legend {
+    color: var(--secondary-color);
+    padding: 0.5rem;
+    font-family: var(--heading-font);
+}
+
+#register label{
+    display: block;
+    padding: 1rem;
+    color: var(--accent3-color);
+    font-size: .9rem;
+    font-family: var(--paragraph-font);
+}
+
+#membership p, #membership ul li{
+    color: var(--accent3-color);
+    font-family: var(--paragraph-font);
+}
+
+#register input[type="text"],
+#register input[type="email"],
+#register input[type="tel"] {
+    background-color: var(--accent2-color);
+    display: block;
+    border-radius: 6px;
+    padding: .5rem;
+    color: var(--accent3-color);
+    width: 100%;
+    max-width: 400px;
+    appearance: none;    
+}
+
+#register input[type="radio"] {
+    margin-right: 6px;
+}
+
+#register input[type="submit"] {
+    border: none;
+    background-color: var(--secondary-color);
+    color: var(--accent2-color);
+    font-family: var(--heading-font);
+    border-radius: 6px;
+    padding: 1rem;
+    width: 96%;
+    max-width: 400px;
+    margin: 1rem 2% 2rem 2%;
+    box-shadow: 1px 1px 4px #999;
 }
