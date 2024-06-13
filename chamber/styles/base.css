@@ -317,6 +317,7 @@ h2 {
     font-family: var(--paragraph-font);
 }
 
+
 #membership p, #membership ul li{
     color: var(--accent3-color);
     font-family: var(--paragraph-font);
@@ -336,12 +337,13 @@ h2 {
 }
 
 textarea {
-  width:100%;
-  margin:5px 0;
-  padding:3px;
-  background-color: var(--accent2-color);
-  border-radius: 6px;
-  max-width: 400px;
+    display: block;
+    width:100%;
+    margin:5px 0;
+    padding:3px;
+    background-color: var(--accent2-color);
+    border-radius: 6px;
+    max-width: 400px;
 }
 
 #register input[type="radio"] {
