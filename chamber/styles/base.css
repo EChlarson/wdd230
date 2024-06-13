@@ -7,7 +7,7 @@
 :root {
     --primary-color: #0388A6;
     --secondary-color: #025e73;
-    --accent1-color: #88b5bf;
+    --accent1-color: #a8d3dd;
     --accent2-color: #d8d8d8;
     --accent3-color: #0d0d0d;
 
@@ -348,6 +348,16 @@ textarea {
 
 #register input[type="radio"] {
     margin-right: 6px;
+}
+
+#radio:hover {
+    border: 2px solid var(--secondary-color);
+    border-radius: 1rem;
+    background-color: var(--accent1-color);
+    font-family: var(--heading-font);
+    font-size: large;
+    color: var(--secondary-color);
+    width: 8rem;
 }
 
 #register input[type="submit"] {
