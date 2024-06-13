@@ -335,6 +335,15 @@ h2 {
     appearance: none;    
 }
 
+textarea {
+  width:100%;
+  margin:5px 0;
+  padding:3px;
+  background-color: var(--accent2-color);
+  border-radius: 6px;
+  max-width: 400px;
+}
+
 #register input[type="radio"] {
     margin-right: 6px;
 }
