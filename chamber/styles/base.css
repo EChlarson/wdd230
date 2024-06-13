@@ -350,7 +350,7 @@ textarea {
     margin-right: 6px;
 }
 
-#radio:hover {
+.radio:hover {
     border: 2px solid var(--secondary-color);
     border-radius: 1rem;
     background-color: var(--accent1-color);
