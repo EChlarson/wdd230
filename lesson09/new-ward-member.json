@@ -1,0 +1,30 @@
+{
+    "wardInformation": {
+        "familyName": "Chlarson",
+        "moveInDate": "2021-11-20",
+        "numberOfPeople": 4,
+        "visitedByBishoipric": true,
+        "familyMembers": [
+            {
+                "name": "Elizabeth Chlarson",
+                "gender": "Female",
+                "birthdate": "1993-02-18"
+            },
+            {
+                "name": "Jared Chlarson",
+                "gender": "Male",
+                "birthdate": "1988-07-11"
+              },
+              {
+                "name": "Banjamin Chlarson",
+                "gender": "Male",
+                "birthdate": "2017-11-27"
+              },
+              {
+                "name": "Annabelle Chlarson",
+                "gender": "Female",
+                "birthdate": "2021-01-05"
+              }
+            ]
+        }
+    }      
