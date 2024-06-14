@@ -5,6 +5,7 @@ const visitsDisplay = document.querySelector(".visits");
 if (typeof(Storage) !== "undefined") {
     // Get the last visit date from localStorage
     var lastVisit = localStorage.getItem("lastVisit");
+    var numVisits = localStorage.getItem("numVisits")
 }
 
 //Declare Variables
@@ -23,4 +24,6 @@ if (!lastVisit) {
 }
 
 // Store the new date into localStorage, key=lastVisit
+numVisits++;
+localStorage.setItem("numVisits", numVisits);
 localStorage.setItem("lastVisit", currentDate);
