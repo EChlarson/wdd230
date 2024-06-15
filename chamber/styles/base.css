@@ -245,7 +245,7 @@ footer label {
     margin: 0;
 }
 
-#dem h3, #events h3, #local h3, #visits h3 {
+#dem h2, #events h2, #local h2, #visits h2 {
     margin: 0.25rem 0;
 }
 
@@ -253,7 +253,13 @@ footer label {
     background-color: var(--accent1-color);
   }
 
-.mArea figure img {
+.mArea h1 {
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+    text-align: center;
+}
+
+.mArea picture img {
     display: flex;
     justify-content: center;
     margin: 0.25rem;
@@ -262,15 +268,12 @@ footer label {
     height: auto;
 }
 
-figure {
-    margin: 1rem;
-}
-
-figcaption {
+picture p {
     font-family: var(--paragraph-font);
     color: var(--accent3-color);
-    font-size: smaller;
+
     font-style: italic;
+    margin: 1rem 1rem 3rem 1rem;
 }
 
 .mArea img:hover {
