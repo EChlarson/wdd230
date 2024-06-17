@@ -22,8 +22,8 @@ function displayLinks(data,weeks) {
             //Build Element linkCon/Link Content
             let linkCon = document.createElement("a");
             //Build a
-            linkCon.setAttribute("href", links.url);
-            linkCon.textContent = links.title + " | ";
+            linkCon.setAttribute("href", lesson.url);
+            linkCon.textContent = lesson.title + " | ";
             //create loop
             listCon.appendChild(linkCon);
         });

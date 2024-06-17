@@ -1,5 +1,8 @@
+{
+    "lessons": [
         {
-            "lesson": "01"[
+            "lesson": "01",
+            "links": [
                 {
                     "url":"lesson01/holygrail.html",
                     "title":"Holy Grail Layout"
@@ -7,7 +10,8 @@
             ]
         },
         {
-            "lesson": "02"[
+            "lesson": "02",
+            "links": [
                 {
                     "url":"lesson02/design.html",
                     "title":"Design"
@@ -23,7 +27,8 @@
             ]
         },
         {
-            "lesson": "03" [
+            "lesson": "03",
+            "links": [
                 {
                     "url":"images/css-combinators-screenshot.png",
                     "title":"CSS Combinators Exercise"
@@ -39,7 +44,8 @@
             ]
         },
         {
-            "lesson": "04"[
+            "lesson": "04",
+            "links": [
                 {
                     "url":"https://codepen.io/EChlarson/pen/XWwbYed",
                     "title":"CSS Pseudo-Classes"
@@ -47,7 +53,8 @@
             ]
         },
         {
-            "lesson": "05"[
+            "lesson": "05",
+            "links": [
                 {
                     "url":"lesson05/bom.html",
                     "title":"Book of Mormon Favorite Chapters Application"
@@ -55,7 +62,8 @@
             ]
         },
         {
-            "lesson": "06"[
+            "lesson": "06",
+            "links": [
                 {
                     "url":"lesson03/images/landscape2.webp",
                     "title":"WebP"
@@ -67,7 +75,8 @@
             ]
         },
         {
-            "lesson": "07"[
+            "lesson": "07",
+            "links": [
                 {
                     "url":"lesson07/lazyload.html",
                     "title":"Lazy Load"
@@ -83,7 +92,8 @@
             ]
         },
         {
-            "lesson": "08"[
+            "lesson": "08",
+            "links": [
                 {
                     "url":"lesson08/tablebuild.html",
                     "title":"Table Build"
@@ -99,7 +109,8 @@
             ]
         },
         {
-            "lesson": "09"[
+            "lesson": "09",
+            "links": [
                 {
                     "url":"lesson09/new-ward-member.json",
                     "title":"New Ward Family"
@@ -111,10 +122,13 @@
             ]
         },
         {
-            "lesson": "10"[
+            "lesson": "10",
+            "links": [
                 {
                     "url":"#",
                     "title":"Future Assignment"
                 } 
             ]
         }
+    ]
+}
