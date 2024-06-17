@@ -9,29 +9,25 @@ async function getLinks() {
     let dataList = data['lessons'];
     dataList.forEach(displayLinks);
 }
-
+ 
 function displayLinks(data) {
         //Build Element
         let li = document.createElement("li");
         //Build li
         li.textContent = `${data.lesson}: `;
-        
+       
         //Loop the link info so we get them all
-        data.links.forEach(() => {
+        data.links.forEach(link => {
             //Build Element
             let a = document.createElement("a");
-            //Define an index variable
-            let n = 0;
             //Set attributes for a element
-            a.setAttribute("href", data.links[n].url);
-            a.textContent = `${data.links[n].title}| `;
-            //Create loop
-            ++n
+            a.setAttribute("href", link.url);
+            a.textContent = `${link.title}| `;
             li.appendChild(a);    
             });
-    
+   
         //Loop back to create a new li
         listEl.appendChild(li);
         };
-
+ 
 getLinks();
