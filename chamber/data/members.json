@@ -1,0 +1,94 @@
+{
+    "members": [
+        {
+            "name": "The Esprit de Corps Academy",
+            "address": "225 S. Clay Jacksonville IL 62650",
+            "phone": "(361) 244-4001",
+            "url": "https://theespritdecorps.com/",
+            "logo": "https://img1.wsimg.com/isteam/ip/b617c74b-8076-4d88-9042-b84b57120a1e/logo/5bea02db-781c-4c13-abe5-8315dff188c8.png/:/rs=w:245,h:295,cg:true,m/cr=w:245,h:295/qt=q:95",
+            "mLevel": "Bronze Member",
+            "cPerson": "Eric Turner",
+            "email": "turner.eric@business.org"
+        },
+        {
+            "name": "Spradlin Auction Center",
+            "address": "905 East Morton Ave. Jacksonville IL 62650",
+            "phone": "(217) 243-4449",
+            "url": "https://www.spradlinauction.com/",
+            "logo": "https://www.spradlinauction.com/images/logo.jpg?717231",
+            "mLevel": "Gold Member",
+            "cPerson": "Tim Jones",
+            "email": "spradlin@spradlin.com"
+        },
+        {
+            "name": "Crisis Center Foundation",
+            "address": "325 9th Ave. Jacksonville IL 62650",
+            "phone": "(217) 243-4357",
+            "url": "https://www.crisiscenterfoundation.org/",
+            "logo": "https://lirp.cdn-website.com/6bec4d8d/dms3rep/multi/opt/CCF+Logo-228h.png",
+            "mLevel": "Non-Profit ",
+            "cPerson": "Pam Smith",
+            "email": "smith.pam@crisiscenter.org"
+        },
+        {
+            "name": "Salvation Army",
+            "address": "331 W. Douglas Jacksonville IL 62650",
+            "phone": "(217) 245-7124",
+            "url": "https://www.salvationarmyusa.org/usn/",
+            "logo": "https://static.salvationarmy.org/us-east-1/templates/symphony/static_resources/images/global/shield.svg",
+            "mLevel": "Non-Profit ",
+            "cPerson": "Sara Sampson",
+            "email": "s.sara@salvationarmy.com"
+        },
+        {
+            "name": "Great Clips",
+            "address": "1923 W. Morton Jacksonville IL 62650",
+            "phone": "(217) 243-3233",
+            "url": "https://www.greatclips.com/",
+            "logo": "https://www.greatclips.com/application/themes/main/images/GreatClipsLogo.svg",
+            "mLevel": "Silver Member",
+            "cPerson": "Jared Jones",
+            "email": "jones.j@greatclips.com"
+        },
+        {
+            "name": "Eli Bridge Company",
+            "address": "800 Case Ave. Jacksonville IL 62650",
+            "phone": "(217) 243-6400",
+            "url": "https://elibridge.com/index.htm",
+            "logo": "https://elibridge.com/images/bannerfinal.jpg",
+            "mLevel": "Gold Member",
+            "cPerson": "Mitch Prewitt",
+            "email": "prewitt@elibridgecompany.com"
+        },
+        {
+            "name": "Nestle USA",
+            "address": "1111 Carnation Dr. Jacksonville IL 62650",
+            "phone": "(217) 479-2225",
+            "url": "https://www.nestleusa.com/",
+            "logo": "https://www.nestleusa.com/themes/custom/da_vinci_code/logo.svg",
+            "mLevel": "Gold Member",
+            "cPerson": "Harry Green",
+            "email": "h.green@nestleusa.com"
+        },
+        {
+            "name": "Jones Meat & Locker",
+            "address": "2108 E. State St. Jacksonville IL 62650",
+            "phone": "(217) 243-2212",
+            "url": "https://www.jonesmeatandlocker.com/",
+            "logo": "https://www.jonesmeatandlocker.com/wp-content/themes/jones/img/logo-white.png",
+            "mLevel": "Silver Member",
+            "cPerson": "Mary Brown",
+            "email": "brown@jones.com"
+        },
+        {
+            "name": "Beard Implement Co.",
+            "address": "216 Frederick St. Arenzville IL 62611",
+            "phone": "(217) 997-5514",
+            "url": "https://www.beardimplement.com/",
+            "logo": "https://www.beardimplement.com/images/beardimplement-logo.png",
+            "mLevel": "Gold Member",
+            "cPerson": "John Rogers",
+            "email": "Rogers@beardimplement.com"
+        }
+    ]
+}
