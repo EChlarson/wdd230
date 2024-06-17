@@ -23,7 +23,7 @@ function displayLinks(data,weeks) {
             let linkCon = document.createElement("a");
             //Build a
             linkCon.setAttribute("href", links.url);
-            linkCon.textContent = links.lesson + " | ";
+            linkCon.textContent = links.title + " | ";
             //create loop
             listCon.appendChild(linkCon);
         });
