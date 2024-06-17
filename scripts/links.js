@@ -12,24 +12,24 @@ async function getLinks() {
 
 function displayLinks(data,weeks) {
     weeks.forEach(week => {
-        //Build Element listCon/List Content
-        let listCon = document.createElement("li");
+        //Build Element
+        let li = document.createElement("li");
         //Build li
-        listCon.textContent = week + ": ";
+        li.textContent = week + ": ";
         
 
         data[week].forEach(links => {
             //Build Element linkCon/Link Content
-            let linkCon = document.createElement("a");
+            let a = document.createElement("a");
             //Build a
-            linkCon.setAttribute("href", lesson.url);
-            linkCon.textContent = lesson.title + " | ";
+            a.setAttribute("href", links.url);
+            a.textContent = links.lesson + " | ";
             //create loop
-            listCon.appendChild(linkCon);
+            li.appendChild(a);
         });
         
 
-        listEl.appendChild(listCon);
+        listEl.appendChild(li);
     });
 }
 
