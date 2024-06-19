@@ -11,10 +11,6 @@
         --paragraph-font: 'Quattrocento', serif;
     }
 
-header {
-    height: 5rem;
-}
-
 /* Hero Image */
 .hero article {
     top: 3.5rem;

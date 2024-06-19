@@ -25,17 +25,20 @@ body {
 }
 
 header {
-    align-content: center;
     font-family: var(--heading-font);
     color: var(--secondary-color);
-    padding: 0.25rem;
-    text-align: left;
+    display: flex;
+    align-content: left;
     background-color: var(--accent2-color);
+    padding: 0;
 }
 
 header img {
-    width: 12rem;
+    height: 100%;
+    max-width: 4rem;
+    margin: 0.25rem;
 }
+
 
 /* Light to Dark Switch */
 #mode {
