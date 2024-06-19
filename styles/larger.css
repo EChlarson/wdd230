@@ -39,6 +39,17 @@
         color: var(--primary-color);
     }
 
+    main {
+        grid-template-columns: 1fr 1fr;
+        display: grid;
+    }
+
+    .hero, h2, iframe {
+        grid-column: 1/3;
+    }
+
+
+
 }
 
 @media screen and (min-width: 750px){
