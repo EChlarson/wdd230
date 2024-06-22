@@ -16,6 +16,20 @@ body p, body label, #temp, #wSpeed, #windchill{
     font-size: revert;
 } 
 
+h1 {
+    visibility: visible;
+}
+
+/*Responsive Header*/
+
+header {
+      height: auto;
+}
+
+#mode, #menu {
+    top: 1.75rem;
+}
+
 /* Hero Image */
 .hero article {
     top: 1.5rem;

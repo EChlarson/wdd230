@@ -11,6 +11,11 @@
         --paragraph-font: 'Quattrocento', serif;
     }
 
+/* Responsive Font */
+h1{
+    font-size: revert;
+} 
+
 /* Hero Image */
 .hero article {
     top: 3.5rem;
