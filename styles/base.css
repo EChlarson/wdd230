@@ -150,3 +150,14 @@ footer {
     text-decoration-color: var(--primary-color);
     text-decoration-thickness: 1.5px;
 }
+
+/* Weather Information */
+#desc {
+    text-transform: capitalize;
+}
+
+#lOne {
+    display:flex;
+    margin: 1rem 0;
+    align-items: center;
+}
