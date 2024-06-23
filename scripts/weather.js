@@ -32,7 +32,7 @@ function displayResults(data) {
     //current temp
     let numData = `${data.main.temp}`;
     let numDecimals = parseFloat(numData).toFixed(0);
-    currentTemp.textContent = numDecimals + '°F.';
+    currentTemp.textContent = numDecimals + '°F';
     //description
     let desc = data.weather[0].description;
     captionDesc.textContent = `${desc}`;
