@@ -408,3 +408,27 @@ textarea {
     max-height: 60px;
     width: auto;
 }
+
+/* Weather Information */
+#desc {
+    text-transform: capitalize;
+}
+
+#lOne {
+    display:flex;
+    margin: 1rem 0;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Forcast Display */
+#fData {
+    display: flex;
+    margin: 0.25rem;
+    justify-content: space-between;
+    margin: 0 2rem; 
+}
+
+#fData div {
+    margin: 0.25rem;
+}
