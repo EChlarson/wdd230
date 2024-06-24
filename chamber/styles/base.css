@@ -167,9 +167,12 @@ body p, body label {
 
 .local {
     text-align: center;
-    padding: 0.5rem;
+    padding: 0;
 }
 
+.local article {
+    padding: 0.25rem;
+}
 .boxes img {
     width: 15rem;
     border-top-left-radius: 1rem;
@@ -426,9 +429,14 @@ textarea {
     display: flex;
     margin: 0.25rem;
     justify-content: space-between;
-    margin: 0 2rem; 
+    margin: 0 2rem;
 }
 
 #fData div {
     margin: 0.25rem;
+}
+
+.color {
+    background-color: var(--accent1-color);
+    margin: 0;
 }

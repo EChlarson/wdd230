@@ -114,5 +114,9 @@ h1{
     margin: 0.25rem; 
 }
 
+.color {
+    background-color: inherit;
+}
+
 
 }
