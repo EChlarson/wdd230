@@ -445,7 +445,7 @@ textarea {
 .announcement {
     background-color: #e70d43;
     color: #efefef;
-    position: fixed;
+    position: absolute;
     z-index: 1;
     left: 0;
     right: 0;
