@@ -22,8 +22,7 @@
 <body>
     <div id="mode">🌔</div>
     <header>
-        <img src="images/Logo.webp" alt="Logo">
-        <h1>Riverstone Chamber of Commerce</h1>
+        <img src="images/jacksonvilleLogo.jpg" alt="Logo">
     </header>
     <nav class="navigation">
         <button id="menu"></button>
@@ -31,7 +30,7 @@
             <li><a href="https://echlarson.github.io/wdd230/chamber/index.html" class="active">Home</a></li>
             <li><a href="https://echlarson.github.io/wdd230/chamber/discover.html">Discover</a></li>
             <li><a href="https://echlarson.github.io/wdd230/chamber/join.html">Join</a></li>
-            <li><a href="https://echlarson.github.io/wdd230/chamber/members.html">Directory</a></li>
+            <li><a href="https://echlarson.github.io/wdd230/chamber/directory.html">Directory</a></li>
         </ul>
     </nav>
     <!--Anouncment Bar -->
@@ -42,10 +41,12 @@
         </div>
     </div>
     <main>
+        
+        
         <div class="hero">
             <picture><img src="images/architecture-1868667_1280.jpg" alt="img"></picture>
             <article>
-                <h2>Welcome</h2>
+                <h1>Jacksonville Chamber of Commerce</h1>
                 <p>Welcome to Riverstone Chamber of Commerce website, where you can find updated news and 
                     local events. Riverstone is a bustling city named for its nearby National Park, with 
                     bustling night life and many local events to help you network. This site will provide you 
@@ -54,15 +55,11 @@
                 <button class="button" onclick="window.location.href='https://echlarson.github.io/wdd230/chamber/join.html';">Become a Member</button>
             </article>
         </div>
+        
+        
         <div class="local">
             <article>
-                <h3>Events</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae sequi ipsum neque incidunt, 
-                    dolorum officiis. Minima at cupiditate soluta velit? Sed mollitia officiis aspernatur sequi 
-                    soluta consectetur inventore, reiciendis illum.</p>
-            </article>
-            <article>
-                <h3>Current Weather</h3>
+                <h2>Current Weather</h2>
                 <div class="weather">
                     <ul>
                         <li id="lOne"><img id="weather-icon" alt="#" src="#">|<span id=temp></span>|<span id=desc></span></li>
@@ -70,16 +67,35 @@
                         <li><span id=windchill></span></li>
                     </ul>
                     <ul>
-                        <li id="visits"><span class="label">Number of Visits: </span><span class="visits"></span></li>
+                        <li id="visits"><span class="label">Number of Page Visits: </span><span class="visits"></span></li>
                     </ul>
                 </div>
             </article>
             <article class="color">
-                <h3>6am Forcast</h3>
+                <h2>Forecast</h2>
                 <span id="fData"></span>
-                <!--forcastData Here-->
-            </article>
+                <!--forecastData Here-->
+            </article>    
         </div>
+
+
+        <div class="circles">
+            <button><img src="imagesTest/advocacy.png" alt="Advocacy" width="100" height="100"><br>Advocacy</button>
+            <button><img src="imagesTest/networking.png" alt="Networking" width="100" height="100"><br>Networking</button>
+            <button><img src="imagesTest/support.png" alt="Support" width="100" height="100"><br>Support</button>
+        </div>
+
+
+        <div class="events">
+            <article>
+                <h2>Events</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae sequi ipsum neque incidunt, 
+                    dolorum officiis. Minima at cupiditate soluta velit? Sed mollitia officiis aspernatur sequi 
+                    soluta consectetur inventore, reiciendis illum.</p>
+            </article> 
+        </div>
+        
+        
         <div class="boxes">
             <article>
                 <picture>
@@ -121,6 +137,8 @@
                 </div>
             </article>
         </div>
+    
+    
     </main>
     <footer>
         <p>Riverstone Chamber of Commerce <br>Elizabeth Chlarson | WDD230 Project</p>

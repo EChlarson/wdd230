@@ -1,10 +1,10 @@
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 700px) {
 
     :root {
-        --primary-color: #0388A6;
-        --secondary-color: #025e73;
-        --accent1-color: #a8d3dd;
-        --accent2-color: #d8d8d8;
+        --primary-color: #7F0008;
+        --secondary-color: #BF000c;
+        --accent1-color: #ededed;
+        --accent2-color: #404040;
         --accent3-color: #0d0d0d;
     
         --heading-font: 'Oswald', sans-serif;
@@ -17,17 +17,7 @@ body p, body label, #temp, #wSpeed, #windchill{
 } 
 
 h1 {
-    visibility: visible;
-}
-
-/*Responsive Header*/
-
-header {
-      height: auto;
-}
-
-#mode, #menu {
-    top: 1.75rem;
+    font-size: revert;
 }
 
 /* Hero Image */
@@ -83,9 +73,23 @@ header {
   }
 
   /* Join Page */
-  .jpage {
+.jpage {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+
+  .circles {
+    margin: 4rem 3rem;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.circles button {
+    margin: 1rem;
+}
+
+#fData {
+    flex-direction: row;
+}
 
 }

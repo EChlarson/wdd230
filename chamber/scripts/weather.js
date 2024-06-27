@@ -1,4 +1,3 @@
-// Current Weather
 // select all of the HTML elements that will need to be manipulated and assign them to const variables
 const currentTemp = document.querySelector('#temp');
 const weatherIcon = document.querySelector('#weather-icon');
@@ -6,8 +5,9 @@ const captionDesc = document.querySelector('#desc');
 const wSpeed= document.querySelector('#wSpeed');
 const windchill = document.querySelector('#windchill');
 const nullstr= "Not Applicable";
+const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 
-
+// Current Weather
 //API call
 const url = 'https://api.openweathermap.org/data/2.5/weather?lat=39.73&lon=-90.22&units=imperial&appid=d2d7b88d49cdd622f123e90a8f4ec735';
 //39.73371637386022, -90.22883862165104
@@ -56,18 +56,18 @@ function displayResults(data) {
 }
 
 
-//Forcast
+//forecast
 const urlF = 'https://api.openweathermap.org/data/2.5/forecast?lat=39.73&lon=-90.22&units=imperial&appid=d2d7b88d49cdd622f123e90a8f4ec735';
 const fDiv = document.querySelector('#fData');
   // API Pull on line 11 const url
 
-async function forcastFetch() {
+async function forecastFetch() {
   try {
     const response = await fetch(urlF);
     if (response.ok) {
       const data = await response.json();
       console.log(data);
-      displayForcast(data);
+      displayforecast(data);
     } else {
         throw Error(await response.text());
     }
@@ -76,20 +76,29 @@ async function forcastFetch() {
   }
 }
 
-forcastFetch();
+forecastFetch();
 
-const displayForcast = (data) => {
+const displayforecast = (data) => {
 
-  for (let aNum=0; aNum<25; aNum=aNum+8) {
-    if (aNum < 25) {
+  for (let aNum=3; aNum<30; aNum=aNum+8) {
+    if (aNum < 30) {
       //Build div
       let div = document.createElement('div');
-      let tempDate = document.createElement('p');
-      let fTemp = document.createElement('p');
+      let tempDate = document.createElement('h3');
+      let fTemp = document.createElement('p');  
+
+      //Day of the Week
+      let d = new Date(data.list[aNum].dt * 1000);
+      let day = weekday[d.getDay()];
+      tempDate.textContent = day;
 
       fullDate = `${data.list[aNum].dt_txt}`;
-      tempDate.textContent = fullDate.substring(5,10);
-      fTemp.textContent = `${data.list[aNum].main.temp}°F`;
+      tempDN = fullDate.substring(8,10);
+
+      tempDate.textContent = day + ' ' + tempDN;
+      
+      //Temp
+      fTemp.textContent = `12pm: ${data.list[aNum].main.temp}°F`;
 
       div.appendChild(tempDate);
       div.appendChild(fTemp);

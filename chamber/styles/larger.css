@@ -1,10 +1,10 @@
 @media screen and (min-width: 1000px) {
 
     :root {
-        --primary-color: #0388A6;
-        --secondary-color: #025e73;
-        --accent1-color: #a8d3dd;
-        --accent2-color: #d8d8d8;
+        --primary-color: #7F0008;
+        --secondary-color: #BF000c;
+        --accent1-color: #ededed;
+        --accent2-color: #404040;
         --accent3-color: #0d0d0d;
     
         --heading-font: 'Oswald', sans-serif;
@@ -24,13 +24,13 @@ h1{
 /* Local Change */
 .local {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
 }
 
 .local article {
     margin: 1rem;
     padding: 1rem;
-    border: 3px dotted var(--secondary-color);
+    border: 3px solid var(--secondary-color);
 }
 
 .boxes {
@@ -68,7 +68,7 @@ h1{
 }
 
 .navigation {
-    background-color: var(--secondary-color);
+    background-color: var(--accent2-color);
     height: 3rem;
 }
 
@@ -86,7 +86,7 @@ h1{
 .navigation a, .navigation a:visited, .navigation a:hover, .navigation a:focus, .navigation a:active {
     font-family: var(--heading-font);
     font-size: larger;
-    color: var(--accent2-color)
+    color: var(--accent1-color)
 } /*End Remove Hamburger */
 
 /* wayfinding symbol */
@@ -116,6 +116,14 @@ h1{
 
 .color {
     background-color: inherit;
+}
+
+.circles {
+    margin: 4rem 10rem;
+}
+
+.circles button {
+    margin: 0.5rem;
 }
 
 

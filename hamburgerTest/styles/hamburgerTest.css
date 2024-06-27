@@ -32,7 +32,7 @@ li {
 }
 
 a {
-    color: var(--accent1-color);
+    color: var(--primary-color);
     font-weight: bold;
     text-decoration: none;
     font-family: var(--paragraph-font);
@@ -116,7 +116,7 @@ a {
         top: 70px;
         gap: 0;
         flex-direction: column;
-        background-color: var(--accent2-color);
+        background-color: var(--primary-color);
         width: 100%;
         text-align: center;
         transition: 0.3s;
