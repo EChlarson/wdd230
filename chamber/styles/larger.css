@@ -126,5 +126,9 @@ h1{
     margin: 0.5rem;
 }
 
+#spotContainer {
+    margin: 0 8rem 2rem 8rem;
+}
+
 
 }
