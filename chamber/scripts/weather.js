@@ -85,6 +85,7 @@ const displayforecast = (data) => {
       //Build div
       let div = document.createElement('div');
       let tempDate = document.createElement('h3');
+      let wIcon = document.createElement('img');
       let fTemp = document.createElement('p');  
 
       //Day of the Week
@@ -97,10 +98,16 @@ const displayforecast = (data) => {
 
       tempDate.textContent = day + ' ' + tempDN;
       
+      //Icon
+      const iconsrc = `https://openweathermap.org/img/w/${data.list[aNum].weather[0].icon}.png`;
+      wIcon.setAttribute('src', iconsrc);
+      wIcon.setAttribute('alt', 'Weather Icon');
+      
       //Temp
       fTemp.textContent = `12pm: ${data.list[aNum].main.temp}°F`;
 
       div.appendChild(tempDate);
+      div.appendChild(wIcon);
       div.appendChild(fTemp);
       fDiv.appendChild(div);
     }
