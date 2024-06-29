@@ -130,5 +130,10 @@ h1{
     margin: 0 8rem 2rem 8rem;
 }
 
+/* Directory */
+#directory h1{
+    margin-top: 3rem;
+}
+
 
 }

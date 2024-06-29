@@ -1,15 +1,21 @@
-const cardEl = document.querySelector("#cards");
+const cardEl = document.querySelector("#gridCards");
+const listEl = document.querySelector("#listCards");
 const contLi = 'https://echlarson.github.io/wdd230/chamber/data/members.json';
+
+const gridbutton = document.querySelector("#grid");
+const listbutton = document.querySelector("#list");
 
 async function getCont() {
     const response = await fetch(contLi);
     const data = await response.json();
     //console.log(data);
     let dataCont = data ['members'];
-    dataCont.forEach(displayCont);
+    dataCont.forEach(displayGrid);
+    dataCont.forEach(displayList);
 }
 
-function displayCont(data) {
+//GRID
+function displayGrid(data) {
     //Bild div elements
     let div = document.createElement('div');
     let logo = document.createElement('img');
@@ -19,6 +25,9 @@ function displayCont(data) {
     let phone = document.createElement('p');
     let cPerson = document.createElement('p');
     let mLevel = document.createElement('h3');
+
+    //div
+    div.setAttribute('class', 'gridView');
 
     //img
     logo.setAttribute('src', data.logo);
@@ -51,6 +60,29 @@ function displayCont(data) {
     div.appendChild(mLevel);
 
     cardEl.appendChild(div);
+}
+
+//LIST
+function displayList(data) {
+//Bild div elements
+    let div = document.createElement('div');
+    let name = document.createElement('h2');
+    let info = document.createElement('p');
+
+    //div
+    div.setAttribute('class', 'listView');
+
+    //h2
+    name.innerHTML = `${data.name} <br> ${data.mLevel}`;
+
+    //p
+    info.innerHTML = `${data.url} <br> ${data.address} <br> ${data.phone}`;
+
+    //loop
+    div.appendChild(name);
+    div.appendChild(info);
+
+    listEl.appendChild(div);
 }
 
 getCont();
