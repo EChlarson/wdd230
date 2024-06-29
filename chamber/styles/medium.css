@@ -117,9 +117,7 @@ h1 {
 }
 
 /*Directory*/
-#directory .toggleView {
-    padding: 0.5rem;
-    background-color: var(--accent1-color);
+.toggleView {
     padding-left: 85%;
 }
 

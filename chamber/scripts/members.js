@@ -16,7 +16,7 @@ async function getCont() {
 
 //GRID
 function displayGrid(data) {
-    //Bild div elements
+    //Build div elements
     let div = document.createElement('div');
     let logo = document.createElement('img');
     let name = document.createElement('h2');
@@ -64,7 +64,7 @@ function displayGrid(data) {
 
 //LIST
 function displayList(data) {
-//Bild div elements
+//Build div elements
     let div = document.createElement('div');
     let name = document.createElement('h2');
     let info = document.createElement('p');
@@ -86,3 +86,14 @@ function displayList(data) {
 }
 
 getCont();
+
+//TOOGLE VIEWS
+function showGrid() {
+    listEl.setAttribute('display','none');
+    cardEl.setAttribute('display', 'contents');
+}
+
+function showList() {
+    listEl.setAttribute('display', 'contents');
+    cardEl.setAttribute('display','none');
+}
