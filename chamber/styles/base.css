@@ -432,22 +432,24 @@ textarea {
 }
 
 /*Discover*/
+#directory h1 {
+    margin-left: 1rem;
+}
 
-
-#cards {
+#directory #cards {
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
     text-align: center;
 }
 
-#cards div {
+#directory #cards div {
     border: 2px solid var(--secondary-color);
-    background-color: var(--accent2-color);
+    background-color: var(--accent1-color);
     margin: 1rem;
     padding: 1rem;
 }
 
-#cards div img {
+#directory #cards div img {
     max-height: 60px;
     width: auto;
 }
@@ -538,13 +540,13 @@ textarea {
 .spotlight div {
     margin: 1rem;
     text-align: center;
-    border: 4px solid var(--secondary-color);
+    border: 4px solid var(--primary-color);
     padding: 0.5rem;
-    background-color: var(--accent2-color);
+    background-color: var(--accent1-color);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
     width: 270px;
 }
 
 .spotlight div h2, .spotlight div h3, .spotlight div a {
-    color: var(--accent1-color);
+    color: var(--primary-color);
 }
