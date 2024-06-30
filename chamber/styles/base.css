@@ -435,7 +435,7 @@ textarea {
     margin-left: 1rem;
 }
 
-#gridCards{
+#cards{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
     text-align: center;
@@ -461,18 +461,27 @@ textarea {
     padding: 0.25rem 1rem;
 }
 
-#listCards div:hover {
+#list div:hover {
    background-color: var(--accent1-color); 
 }
 
-#directory .toggleView {
-    padding: 0.5rem;
-    background-color: var(--accent1-color);
-    padding-left: 60%;
+.viewMenu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.toggleView button {
+.viewMenu button {
     cursor: pointer;
+    padding: 0.25rem;
+    margin: 2rem 1rem 0 1rem;
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
+    font-family: var(--paragraph-font);
+}
+
+#list {
+    display: none;
 }
 
 /* Weather Information */

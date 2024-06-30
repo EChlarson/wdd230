@@ -1,9 +1,11 @@
-const cardEl = document.querySelector("#gridCards");
-const listEl = document.querySelector("#listCards");
+const cardEl = document.querySelector("#cards");
+const listEl = document.querySelector("#list");
 const contLi = 'https://echlarson.github.io/wdd230/chamber/data/members.json';
 
-const gridbutton = document.querySelector("#grid");
-const listbutton = document.querySelector("#list");
+const gridbutton = document.querySelector("#gridview");
+const listbutton = document.querySelector("#listview");
+const cardsDisplay = document.querySelector("#cards");
+const listDisplay = document.querySelector("#list");
 
 async function getCont() {
     const response = await fetch(contLi);
@@ -88,12 +90,14 @@ function displayList(data) {
 getCont();
 
 //TOOGLE VIEWS
-function showGrid() {
-    listEl.setAttribute('display','none');
-    cardEl.setAttribute('display', 'contents');
-}
+gridbutton.addEventListener("click", () => {
+    cardsDisplay.style.display = "grid";
+    listDisplay.style.display = "none";
+});
+
+listbutton.addEventListener("click", showList);
 
 function showList() {
-    listEl.setAttribute('display', 'contents');
-    cardEl.setAttribute('display','none');
+    cardsDisplay.style.display = "none";
+    listDisplay.style.display = "grid";
 }

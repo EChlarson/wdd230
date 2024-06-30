@@ -32,16 +32,16 @@
             <li><a href="https://echlarson.github.io/wdd230/chamber/join.html">Join</a></li>
             <li><a href="https://echlarson.github.io/wdd230/chamber/directory.html" class="active">Directory</a></li>
         </ul>
-        <div class="toggleView">
-            <button id="grid" type="button" onclick="showGrid()">Grid</button>
-            <button id="list" type="button" onclick="showList()">List</button>
-        </div>
     </nav>
     <h1>Jacksonville Chamber of Commerce Member Directory</h1>
     <main>
-        <div id="gridCards"></div>
+        <div class="viewMenu">
+            <button id="gridview">Grid View</button>
+            <button id="listview">List View</button>
+        </div>
+        <div id="cards"></div>
         <!--JSON HERE-->
-        <div id="listCards"></div>
+        <div id="list"></div>
     </main>
     <footer>
         <p>Jacksonville Chamber of Commerce <br>Elizabeth Chlarson | WDD230 Project</p>
