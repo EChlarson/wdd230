@@ -309,18 +309,18 @@ footer label {
 .mArea picture img {
     display: flex;
     justify-content: center;
-    margin: 0.25rem;
+    margin: auto;
     object-fit: cover;
-    width: 100%;
+    width: 75%;
     height: auto;
 }
 
 picture p {
     font-family: var(--paragraph-font);
     color: var(--accent3-color);
-
+    text-align: center;
     font-style: italic;
-    margin: 1rem 1rem 3rem 1rem;
+    margin-bottom: 3rem;
 }
 
 .mArea img:hover {

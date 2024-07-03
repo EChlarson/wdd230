@@ -39,7 +39,7 @@
         color: var(--primary-color);
     }
 
-    main {
+    #index {
         grid-template-columns: 1fr 1fr;
         display: grid;
     }

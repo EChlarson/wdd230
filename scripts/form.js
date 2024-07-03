@@ -19,3 +19,4 @@ function checkSame() {
 		p2.style.color = "#000";
 	}
 }
+
