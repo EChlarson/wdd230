@@ -393,7 +393,7 @@ textarea {
     width:100%;
     margin:5px 0;
     padding:3px;
-    background-color: var(--accent2-color);
+    background-color: var(--accent1-color);
     border-radius: 6px;
     max-width: 400px;
 }
