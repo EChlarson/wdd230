@@ -313,7 +313,7 @@ footer label {
     height: auto;
 }
 
-picture p {
+.mArea p {
     font-family: var(--paragraph-font);
     color: var(--accent3-color);
     text-align: center;
@@ -427,6 +427,12 @@ textarea {
 
 .tpage {
     margin: 1rem;
+}
+
+#error-message {
+    color: var(--secondary-color);
+    font-family: var(--paragraph-font);
+    margin: 0.25rem 1rem;
 }
 
 /*Directory*/

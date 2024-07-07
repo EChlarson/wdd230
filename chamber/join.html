@@ -88,7 +88,7 @@
         </div>
         <!-- Form -- Second Column-->
         <div id="register">
-            <form method="get" action="thankyou.html" class="f1">
+            <form method="get" action="thankyou.html" id="f1">
                 <fieldset class="block">
                     <legend>Applicant Information</legend>
                         <label>First Name<input type="text" name="fname" required></label>
@@ -96,10 +96,11 @@
                         <label>Email<input type="email" name="email" placeholder="helloworld@email.com" required></label>
                         <label>Phone<input type="tel" name="tel" required></label>
                 </fieldset>
+                <div id="error-message"></div>
                 <fieldset class="block">
                     <legend>Business (Organization)</legend>
                         <label>Business Name<input type="text" name="bname" required></label>
-                        <label>Title (Position)<input type="text" name="title" pattern="[a-zA-Z_-]{7}" required></label>
+                        <label>Title (Position)<input type="text" id="position-title" name="title" pattern="^[A-Za-z\s-]{7,}$" required></label>
                         <label>Business Description
                             <textarea rows="5" cols="40" name="bdes" required></textarea>
                         </label>
@@ -131,5 +132,6 @@
     <script src="scripts/last-modified.js"></script>
     <script src="scripts/mode.js"></script>
     <script src="scripts/add-date-form.js"></script>
+    <script src="scripts/joinTitle.js"></script>
 </body>
 </html>
