@@ -101,12 +101,13 @@ header h1 {
 
 #local {
     background-color: var(--accent2-color);
-    padding: 1rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
-#localGrid, #options{
+#localGrid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 
 #local section h3, #options section h3 {
@@ -116,7 +117,6 @@ header h1 {
 }
 
 iframe {
-    padding: 1rem;
     border: none;
 }
 
@@ -128,6 +128,11 @@ iframe {
 
 #options section img {
     width: 20rem;
+}
+
+#options{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 /* FOOTER */
