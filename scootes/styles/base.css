@@ -53,7 +53,7 @@ header h1 {
 }
 
 /* HERO */
-#hero, #local, #options {
+#hero, #local, #options, footer {
     margin-top: 3rem;
 }
 
