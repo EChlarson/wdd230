@@ -100,14 +100,14 @@ header h1 {
     object-fit: cover;
 }
 
-#hero h2 , #local h2{
+#hero h2 , #local h2, #rentals h2{
     font-family: var(--font);
     color: var(--secondary-color);
     margin: 0.75rem;
     padding-top: 0.5rem;
 }
 
-#hero p , #local p, #options section li {
+#hero p , #local p, #options section li, #rentals main p {
     font-family: var(--font);
     color: var(--primary-color);
     margin: 0.75rem;
@@ -179,6 +179,7 @@ footer p{
     font-family: var(--font);
     color: var(--accent-color);
     margin: 0.75rem;
+    font-size: 12px;
 }
 
 .social-links {
@@ -194,3 +195,37 @@ footer p{
     background-color: var(--accent-color);
     border-radius: 0.75rem;
 }
+
+/* RENTALS */
+table {
+	margin: 2rem auto;
+	border: thin solid var(--secondary-color);
+	box-shadow: 0 0 10px var(--secondary-color);
+	border-collapse: collapse;
+}
+
+tr:first-child th {
+	background-color: var(--primary-color);
+	color: var(--accent2-color);
+}
+
+th, td {
+	padding: 7px 15px;
+	border: 1px solid var(--primary-color);
+}
+
+th {
+	background-color: var(--accent2-color);
+	font-size: larger;
+    color: var(--primary-color);
+}
+
+td {
+	text-align: center;
+    color: black;
+}
+
+tbody tr:nth-child(even) {
+	background-color: var(--accent2-color);
+}
+
