@@ -100,14 +100,14 @@ header h1 {
     object-fit: cover;
 }
 
-#hero h2 , #local h2, #rentals h2{
+#hero h2 , #local h2, #rentals h2, #reservations div h2{
     font-family: var(--font);
     color: var(--secondary-color);
     margin: 0.75rem;
     padding-top: 0.5rem;
 }
 
-#hero p , #local p, #options section li, #rentals main p {
+#hero p , #local p, #options section li, #rentals main p, #reservations main div p {
     font-family: var(--font);
     color: var(--primary-color);
     margin: 0.75rem;
@@ -227,5 +227,13 @@ td {
 
 tbody tr:nth-child(even) {
 	background-color: var(--accent2-color);
+}
+
+/* RESERVATIONS */
+
+#resInfo ul {
+    font-family: var(--font);
+    color: var(--primary-color);
+    margin: 0.75rem; 
 }
 
