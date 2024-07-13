@@ -1,0 +1,32 @@
+@media screen and (min-width: 600px) {
+
+    :root {
+        --primary-color: #00568D;
+        --secondary-color: #02C394;
+        --accent-color: #F9F9F4;
+        --accent2-color: #f0efe8;
+    
+        --font: 'Montserrat', sans-serif;
+    }
+
+    #localGrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #options {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        text-align: center;
+    }
+
+    #options section ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    #last {
+        grid-column: 1/3;
+    }
+
+}

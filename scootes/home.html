@@ -24,7 +24,7 @@
         <img src="images/motorcycle.png">
         <h1>Scootes</h1>
         <nav class="navigation">
-            <!--<button id="menu"></button>-->
+            <button id="menu"></button>
             <ul>
                 <li><a href="#" class="active">Home</a></li>
                 <li><a href="#">Rentals</a></li>
@@ -49,21 +49,21 @@
                 <div id="localGrid">
                     <section>
                         <h3>Current Weather</h3>
-                        <p><span id="curTemp"></span><br>
-                            <span id="curHumidity"><br>
-                            <span id="curDesc"></span></p>
+                        <p>Tempeture: <span id="curTemp"></span><br>
+                           Humidity: <span id="curHumidity"></span><br>
+                           Description: <span id="curDesc"></span></p>
                         <img id="curIcon" alt="#" src="#">
                     </section>
                     <section>
                         <h3>Tomorrows Forecast</h3>
-                        <p><span id="futTemp"></span><br>
-                            <span id="futHumidity"><br>
-                            <span id="futDesc"></span></p>
+                        <p>Tempeture: <span id="futTemp"></span><br>
+                            Humidity: <span id="futHumidity"></span><br>
+                            Description: <span id="futDesc"></span></p>
                         <img id="futIcon" alt="#" src="#">
                     </section>
                 </div>
             </div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d239293.76244058926!2d-87.0284159!3d20.4255199!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4ef8efb0d19327%3A0x342ebcae5c018bfc!2sCozumel!5e0!3m2!1sen!2sus!4v1720754292053!5m2!1sen!2sus" width="600" height="250" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d239293.76244058926!2d-87.0284159!3d20.4255199!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4ef8efb0d19327%3A0x342ebcae5c018bfc!2sCozumel!5e0!3m2!1sen!2sus!4v1720754292053!5m2!1sen!2sus" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>        
         <div id="options">
             <section>
@@ -82,7 +82,7 @@
                     <li>Honda Pioneer 1000 - 4 person</li>
                 </ul>
             </section>
-            <section>
+            <section id="last">
                 <img src="images/jeep_wrangler.png">
                 <h3>Jeep Wranglers</h3>
                 <ul>
@@ -106,5 +106,6 @@
         </nav>
     </footer>
     <script src="scripts/weather.js"></script>
+    <script src="scripts/hamburger.js"></script>
 </body>
 </html>
