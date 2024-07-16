@@ -5,6 +5,7 @@
         --secondary-color: #02C394;
         --accent-color: #F9F9F4;
         --accent2-color: #f0efe8;
+        --accent3-color: #202b33;
     
         --font: 'Montserrat', sans-serif;
     }
@@ -61,6 +62,11 @@
     footer {
         display: grid;
         grid-template-columns: 4fr 1fr;
+    }
+
+    #resGrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 
 }
