@@ -3,52 +3,52 @@
         {
             "vehicle": [
                 {
-                    "Rental-Type": "Honda Metro Scooter",
-                    "Max-Persons": "1",
-                    "Reservation-Half": "$20",
-                    "Reservation-Full": "$30",
-                    "Walk-Half": "$25",
-                    "Walk-Full": "$35"
+                    "RentalType": "Honda Metro Scooter",
+                    "MaxPersons": "1",
+                    "ReservationHalf": "$20",
+                    "ReservationFull": "$30",
+                    "WalkHalf": "$25",
+                    "WalkFull": "$35"
                 },
                 {
                     "Rental-Type": "Honda Dio Scooter",
-                    "Max-Persons": "2",
-                    "Reservation-Half": "$30",
-                    "Reservation-Full": "$40",
-                    "Walk-Half": "$35",
-                    "Walk-Full": "$45"
+                    "MaxPersons": "2",
+                    "ReservationHalf": "$30",
+                    "ReservationFull": "$40",
+                    "WalkHalf": "$35",
+                    "WalkFull": "$45"
                 },
                 {
                     "Rental-Type": "Honda PCX150 Scooter",
-                    "Max-Persons": "2",
-                    "Reservation-Half": "$40",
-                    "Reservation-Full": "$50",
-                    "Walk-Half": "$45",
-                    "Walk-Full": "$55"
+                    "MaxPersons": "2",
+                    "ReservationHalf": "$40",
+                    "ReservationFull": "$50",
+                    "WalkHalf": "$45",
+                    "WalkFull": "$55"
                 },
                 {
                     "Rental-Type": "Honda Pioneer ATV",
-                    "Max-Persons": "4",
-                    "Reservation-Half": "$50",
-                    "Reservation-Full": "$70",
-                    "Walk-Half": "$60",
-                    "Walk-Full": "$80"
+                    "MaxPersons": "4",
+                    "ReservationHalf": "$50",
+                    "ReservationFull": "$70",
+                    "WalkHalf": "$60",
+                    "WalkFull": "$80"
                 },
                 {
                     "Rental-Type": "Jeep Wrangler - 4 door with a/c",
-                    "Max-Persons": "5",
-                    "Reservation-Half": "$70",
-                    "Reservation-Full": "$100",
-                    "Walk-Half": "$85",
-                    "Walk-Full": "$125"
+                    "MaxPersons": "5",
+                    "ReservationHalf": "$70",
+                    "ReservationFull": "$100",
+                    "WalkHalf": "$85",
+                    "WalkFull": "$125"
                 },
                 {
                     "Rental-Type": "Jeep Wrangler - 2 door",
-                    "Max-Persons": "4",
-                    "Reservation-Half": "$60",
-                    "Reservation-Full": "$85",
-                    "Walk-Half": "$70",
-                    "Walk-Full": "$90"
+                    "MaxPersons": "4",
+                    "ReservationHalf": "$60",
+                    "ReservationFull": "$85",
+                    "WalkHalf": "$70",
+                    "WalkFull": "$90"
                 }
             ]
         }
