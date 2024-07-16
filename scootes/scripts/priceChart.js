@@ -21,12 +21,12 @@ function displayChart(data) {
         let walkHalf = document.createElement('td');
         let walkFull = document.createElement('td');
 
-        rentalType.textContent = `${data.vehicle[aNum].Rental-Type}`;
-        maxPersons.textContent = `${data.vehicle[aNum].Max-Persons}`;
-        resHalf.textContent = `${data.vehicle[aNum].Reservation-Half}`;
-        resFull.textContent = `${data.vehicle[aNum].Reservation-Full}`;
-        walkHalf.textContent = `${data.vehicle[aNum].Walk-Half}`;
-        walkFull.textContent = `${data.vehicle[aNum].Walk-Full}`;
+        rentalType.textContent = `${data.vehicle[aNum].RentalType}`;
+        maxPersons.textContent = `${data.vehicle[aNum].MaxPersons}`;
+        resHalf.textContent = `${data.vehicle[aNum].ReservationHalf}`;
+        resFull.textContent = `${data.vehicle[aNum].ReservationFull}`;
+        walkHalf.textContent = `${data.vehicle[aNum].WalkHalf}`;
+        walkFull.textContent = `${data.vehicle[aNum].WalkFull}`;
 
         tr.appendChild(rentalType);
         tr.appendChild(maxPersons);

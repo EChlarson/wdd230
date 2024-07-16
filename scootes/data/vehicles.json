@@ -11,7 +11,7 @@
                     "WalkFull": "$35"
                 },
                 {
-                    "Rental-Type": "Honda Dio Scooter",
+                    "RentalType": "Honda Dio Scooter",
                     "MaxPersons": "2",
                     "ReservationHalf": "$30",
                     "ReservationFull": "$40",
@@ -19,7 +19,7 @@
                     "WalkFull": "$45"
                 },
                 {
-                    "Rental-Type": "Honda PCX150 Scooter",
+                    "RentalType": "Honda PCX150 Scooter",
                     "MaxPersons": "2",
                     "ReservationHalf": "$40",
                     "ReservationFull": "$50",
@@ -27,7 +27,7 @@
                     "WalkFull": "$55"
                 },
                 {
-                    "Rental-Type": "Honda Pioneer ATV",
+                    "RentalType": "Honda Pioneer ATV",
                     "MaxPersons": "4",
                     "ReservationHalf": "$50",
                     "ReservationFull": "$70",
@@ -35,7 +35,7 @@
                     "WalkFull": "$80"
                 },
                 {
-                    "Rental-Type": "Jeep Wrangler - 4 door with a/c",
+                    "RentalType": "Jeep Wrangler - 4 door with a/c",
                     "MaxPersons": "5",
                     "ReservationHalf": "$70",
                     "ReservationFull": "$100",
@@ -43,7 +43,7 @@
                     "WalkFull": "$125"
                 },
                 {
-                    "Rental-Type": "Jeep Wrangler - 2 door",
+                    "RentalType": "Jeep Wrangler - 2 door",
                     "MaxPersons": "4",
                     "ReservationHalf": "$60",
                     "ReservationFull": "$85",
