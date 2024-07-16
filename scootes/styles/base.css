@@ -101,14 +101,23 @@ header h1 {
     object-fit: cover;
 }
 
-#hero h2 , #local h2, #rentals h2, #reservations div h2{
+#hero h2 , 
+#local h2, 
+#rentals h2, 
+#reservations div h2, 
+#thankyou h2{
     font-family: var(--font);
     color: var(--secondary-color);
     margin: 0.75rem;
     padding-top: 0.5rem;
 }
 
-#hero p , #local p, #options section li, #rentals main p, #reservations main div p {
+#hero p , 
+#local p, 
+#options section li, 
+#rentals main p, 
+#reservations main div p, 
+#thankyou p {
     font-family: var(--font);
     color: var(--primary-color);
     margin: 0.75rem;
@@ -312,3 +321,4 @@ textarea {
     box-shadow: 1px 1px 4px var(--primary-color);
     cursor: pointer;
 }
+
