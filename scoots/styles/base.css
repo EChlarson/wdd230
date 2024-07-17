@@ -118,8 +118,8 @@ header h1 {
 #options section li, 
 #rentals main p, 
 #reservations main div p, 
-#thankyou p,
-#contact p {
+#thankyou main p,
+#contact main p {
     font-family: var(--font);
     color: var(--primary-color);
     margin: 0.75rem;
