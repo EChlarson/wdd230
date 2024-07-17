@@ -1,5 +1,5 @@
 const chart = document.querySelector("#chart");
-const list = 'https://echlarson.github.io/wdd230/scootes/data/vehicles.json';
+const list = 'https://echlarson.github.io/wdd230/scoots/data/vehicles.json';
 
 async function getCont() {
     try {
