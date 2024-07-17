@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact Us</title>
+    <!--Meta Data-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Providing contact options for customers.">
+    <meta name="author" content="Elizabeth Chlarson">
+    <!--Styles-->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="icon" href="images/motorcycle.png">
+    <!--Open Graph Meta Tags-->
+    <meta property="og:title" content="#">
+    <meta property="og:type" content="#">
+    <meta property="og:image" content="#">
+    <meta property="og:url" content="#">
+</head>
+<body id="contact">
+    <header>
+        <img src="images/motorcycle.png">
+        <h1>Scootes</h1>
+        <nav class="navigation">
+            <button id="menu"></button>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Rentals</a></li>
+                <li><a href="#">Reservations</a></li>
+                <li><a href="#" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Connect with Us</h2>
+        <p>We are here to help.</p>
+        <div id="conGrid">
+            <div>
+                <h3>Contact Information</h3>
+                <p>Phone +52 800 123 4567<br>
+                    Open 7 Days a week, from 8AM - 7PM.</p>
+                <p>Please fill out the below with your contact 
+                    information so we can get in touch with you. 
+                    </p>
+                <p>Provide your name, email address, and any 
+                    specific details or questions you have about our 
+                    services. Our team will reach out to you as soon 
+                    as possible to assist with your inquiry and ensure
+                    you have all the information you need. 
+                    We look forward to connecting with you!</p>
+            </div>
+            <div>
+                <form id="conForm">
+                    <fieldset>
+                        <label>Name*<input type="text" name="custName" required></label>
+                        <label>Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                        <textarea rows="5" cols="40" name="comment" placeholder="Comment" required></textarea>
+                        <input type="submit" value="Send Your Message">
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+        <div id="locGrid">
+            <div>
+                <h3>Locations</h3>
+                <p>Av. Rafael E. Melgar 999<br>
+                    Col. Centro<br>
+                    77600 Cozumel, Q.R.<br>
+                    Mexico</p>
+                <p>Carretera Costera Sur Km 3.8<br>
+                    Zona Hotelera Sur<br>
+                    77600 Cozumel, Q.R.<br>
+                    Mexico</p>
+            </div>
+            <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3736.9815370870856!2d-86.95749852591574!3d20.506983105497348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e59c4d55d8b43%3A0x4d000f0d47a757b0!2sPlaza%20Punta%20Langosta!5e0!3m2!1sen!2sus!4v1721151171862!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3737.5641551432113!2d-86.95393662591641!3d20.483086906298944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e5787a60e55a1%3A0x7539f72407877e59!2sEmily%C2%B4s%20Car%20Rental%20Cozumel!5e0!3m2!1sen!2sus!4v1721151217671!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <h3>Scootes © 2024</h3>
+            <p>☎️ +52 800 123 4567<br>
+                ⏰Open 7 Days a week, from 8AM - 7PM.</p>
+        </div>
+        <nav class="social-links">
+            <a href="https://www.facebook.com/"><img src="images/facebook-icon.webp" alt="Facebook"></a>
+            <a href="https://www.instagram.com/"><img src="images/instagram-icon.webp" alt="Instagram"></a>
+            <a href="https://www.tiktok.com"><img src="images/tiktok-icon.webp" alt="TikTok"></a>
+        </nav>
+    </footer>
+    <script src="scripts/hamburger.js"></script>
+</body>
+</html>

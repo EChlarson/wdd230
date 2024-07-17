@@ -105,7 +105,8 @@ header h1 {
 #local h2, 
 #rentals h2, 
 #reservations div h2, 
-#thankyou h2{
+#thankyou h2,
+#contact h2 {
     font-family: var(--font);
     color: var(--secondary-color);
     margin: 0.75rem;
@@ -117,7 +118,8 @@ header h1 {
 #options section li, 
 #rentals main p, 
 #reservations main div p, 
-#thankyou p {
+#thankyou p,
+#contact p {
     font-family: var(--font);
     color: var(--primary-color);
     margin: 0.75rem;
@@ -141,7 +143,10 @@ header h1 {
     background-color: var(--accent2-color);
 }
 
-#local section h3, #options section h3 {
+#local section h3, 
+#options section h3,
+#conGrid h3,
+#locGrid h3 {
     font-family: var(--font);
     color: var(--primary-color);
     margin: 0.75rem;
@@ -247,7 +252,8 @@ tbody tr:nth-child(even) {
     margin: 0.75rem; 
 }
 
-#resForm fieldset {
+#resForm fieldset,
+#conForm fieldset {
     margin: 1rem;
     border: 2px solid var(--primary-color);
     border-radius: 6px;
@@ -261,7 +267,8 @@ tbody tr:nth-child(even) {
     font-size: 1.25rem;
 }
 
-#resForm label {
+#resForm label,
+#conForm label {
     display: block;
     padding: 1rem;
     color: var(--accent3-color);
@@ -271,7 +278,9 @@ tbody tr:nth-child(even) {
 
 #resForm input[type="text"],
 #resForm input[type="email"],
-#resForm input[type="tel"] {
+#resForm input[type="tel"],
+#conForm input[type="text"],
+#conForm input[type="email"] {
     display: block;
     border-radius: 6px;
     padding: .5rem;
@@ -295,10 +304,11 @@ tbody tr:nth-child(even) {
 textarea {
     display: block;
     width:100%;
-    margin:5px 0;
+    margin-left: 1rem;
     padding:3px;
-    background-color: var(--accent1-color);
+    background-color: var(--accent2-color);
     border-radius: 6px;
+    width: 92%;
     max-width: 400px;
 }
 
@@ -306,7 +316,8 @@ textarea {
     margin-right: 6px;
 }
 
-#resForm input[type="submit"] {
+#resForm input[type="submit"],
+#conForm input[type="submit"] {
     border: none;
     background-color: var(--secondary-color);
     color: var(--accent3-color);
@@ -315,10 +326,14 @@ textarea {
     font-weight: bold;
     border-radius: 6px;
     padding: 1rem;
-    width: 100%;
+    width: 92%;
     max-width: 400px;
     margin: 1rem;
     box-shadow: 1px 1px 4px var(--primary-color);
     cursor: pointer;
 }
+
+/* CONTACT */
+
+
 
