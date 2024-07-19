@@ -17,6 +17,7 @@
 body {
     margin: 0;
     min-width: 290px;
+    cursor: url('file:///D:/Pathway/Spring%202024/wdd230/scoots/images/motorcycle.png'), auto;
 }
 
 /* HEADER */
