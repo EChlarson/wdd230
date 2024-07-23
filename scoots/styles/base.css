@@ -56,6 +56,13 @@ header h1 {
     text-transform: uppercase;    
 }
 
+/* WAYFINDING */
+.navigation .active { 
+	text-decoration: underline;
+    text-decoration-color: var(--secondary-color);
+    text-decoration-thickness: 4px;
+} 
+
 /* HAMBURGER */
 #menu {
 	font-size: 1.5rem;
