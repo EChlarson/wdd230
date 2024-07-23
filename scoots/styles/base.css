@@ -56,6 +56,10 @@ header h1 {
     text-transform: uppercase;    
 }
 
+.navigation a:hover {
+    color: var(--secondary-color);
+}
+
 /* WAYFINDING */
 .navigation .active { 
 	text-decoration: underline;
@@ -142,6 +146,7 @@ header h1 {
     border: none;
     border-radius: 0.75rem;
     box-shadow: 4px 4px 2px var(--secondary-color);
+    cursor: pointer;
 }
 
 /* LOCAL WEATHER */
